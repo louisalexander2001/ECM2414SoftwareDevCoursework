@@ -1,6 +1,6 @@
 import java.util.Random;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -13,7 +13,7 @@ enum bagName {A, B, C, X, Y, Z}
 
 public class Bag {
     bagName name;
-    private List<Integer> bagContents = new ArrayList();
+    Map<Integer, bagName> bagContents = new HashMap<Integer, bagName>();
     Random rand = new Random();
 
     public void setName(bagName name){
@@ -31,10 +31,10 @@ public class Bag {
         }
     }
 
-    public List<Integer> getPebbles(){
+    public Map<Integer, bagName> getPebbles(){
         return this.bagContents;
     }
-    public void setPebbles(List<Integer> pebbles){
+    public void setPebbles(Map<Integer, bagName> pebbles){
         this.bagContents = pebbles;
     }
     public void clearPebbles(){
@@ -55,7 +55,7 @@ public class Bag {
                         }else if (pebbleValue == 0){
                             throw new IOException("A pebble value of 0 was attempted to be used");
                         }
-                        this.bagContents.add(pebbleValue);
+                        this.bagContents.put(pebbleValue, this.name);
                     }catch (Exception exception){
                         throw new IOException("A pebble value that could not be converted into an Int was used");
                     }
@@ -72,6 +72,10 @@ public class Bag {
         int pebble = bagContents.get(randomInt);
         bagContents.remove(randomInt);
         return pebble;
+    }
+
+    public Bag(bagName name){
+        setName(name);
     }
 
     public Bag(bagName name, String pebbleFile){
