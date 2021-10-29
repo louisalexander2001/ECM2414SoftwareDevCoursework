@@ -53,6 +53,9 @@ public class Bag {
     }
 
     private void loadPebbles(String pebbleFile){
+        ///
+        /// need to verify enough pebbles for the game some how (maybe pass in number of players)
+        ///
         Path filePath = Paths.get(pebbleFile);
         try(BufferedReader reader = Files.newBufferedReader(filePath, StandardCharsets.UTF_8)){
             String line = reader.readLine();
@@ -66,7 +69,7 @@ public class Bag {
                         }else if (pebbleValue == 0){
                             throw new IOException("A pebble value of 0 was attempted to be used");
                         }
-                        this.bagContents.put(pebbleValue, this.name);
+                        this.addPebble(pebbleValue, this.name);
                     }catch (Exception exception){
                         throw new IOException("A pebble value that could not be converted into an Int was used");
                     }
