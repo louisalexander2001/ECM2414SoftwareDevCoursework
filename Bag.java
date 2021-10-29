@@ -48,7 +48,17 @@ public class Bag {
             while (line != null){
                 String[] pebbles = line.split(",");
                 for (String pebble : pebbles){
-                    this.bagContents.add(Integer.parseInt(pebble));
+                    try{
+                        Integer pebbleValue = Integer.parseInt(pebble);
+                        if (pebbleValue < 0){
+                            pebbleValue = - pebbleValue;
+                        }else if (pebbleValue == 0){
+                            throw new IOException("A pebble value of 0 was attempted to be used");
+                        }
+                        this.bagContents.add(pebbleValue);
+                    }catch (Exception exception){
+                        throw new IOException("A pebble value that could not be converted into an Int was used");
+                    }
                 }
                 line = reader.readLine();
             }
