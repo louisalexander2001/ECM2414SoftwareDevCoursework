@@ -1,6 +1,8 @@
 import java.util.Random;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.AbstractMap.SimpleEntry;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -13,7 +15,7 @@ enum bagName {A, B, C, X, Y, Z}
 
 public class Bag {
     bagName name;
-    Map<Integer, bagName> bagContents = new HashMap<Integer, bagName>();
+    List<Entry<Integer, bagName>> bagContents = new ArrayList<>();
     Random rand = new Random();
 
     public void setName(bagName name){
@@ -31,10 +33,19 @@ public class Bag {
         }
     }
 
-    public Map<Integer, bagName> getPebbles(){
+    public void addPebble(Entry<Integer, bagName> pebble){
+        this.bagContents.add(pebble);
+    }
+    public void addPebble(Integer value){
+        this.bagContents.add(new SimpleEntry<>(value, this.name));
+    }
+    public void addPebble(Integer value, bagName bag){
+        this.bagContents.add(new SimpleEntry<>(value, bag));
+    }
+    public List<Entry<Integer, bagName>> getPebbles(){
         return this.bagContents;
     }
-    public void setPebbles(Map<Integer, bagName> pebbles){
+    public void setPebbles(List<Entry<Integer, bagName>> pebbles){
         this.bagContents = pebbles;
     }
     public void clearPebbles(){
@@ -67,9 +78,9 @@ public class Bag {
         }
     }
 
-    public synchronized Integer getRandomPebble(){
+    public synchronized Entry<Integer, bagName> getRandomPebble(){
         int randomInt = rand.nextInt(bagContents.size());
-        int pebble = bagContents.get(randomInt);
+        Entry<Integer, bagName> pebble = bagContents.get(randomInt);
         bagContents.remove(randomInt);
         return pebble;
     }
