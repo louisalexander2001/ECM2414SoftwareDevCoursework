@@ -94,6 +94,7 @@ public class Bag {
 
     public Bag(bagName name, String pebbleFile){
         setName(name);
+        System.out.println(pebbleFile);
         loadPebbles(pebbleFile);
     }
 }
