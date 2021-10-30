@@ -11,8 +11,8 @@ import java.util.Random;
 public class PebbleGame{
 
     private Integer numOfPlayers;
-    private List<Bag> bags = new ArrayList();
-    private List<Player> players = new ArrayList();
+    private List<Bag> bags = new ArrayList<Bag>();
+    private List<Player> players = new ArrayList<Player>();
     private List<Thread> threadPool;
     private PebbleGame game = this;
     private Player winner;
@@ -63,7 +63,7 @@ public class PebbleGame{
     class Player implements Runnable{
         
         private Integer playerNumber;
-        private List<Entry<Integer, bagName>> playersHand = new ArrayList<>();
+        private List<Entry<Integer, bagName>> playersHand = new ArrayList<Entry<Integer, bagName>>();
         private bagName previousPickBag;
         private FileWriter writer;
         Random random = new java.util.Random();

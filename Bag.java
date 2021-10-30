@@ -15,7 +15,7 @@ enum bagName {A, B, C, X, Y, Z}
 
 public class Bag {
     bagName name;
-    List<Entry<Integer, bagName>> bagContents = new ArrayList<>();
+    List<Entry<Integer, bagName>> bagContents = new ArrayList<Entry<Integer, bagName>>();
     Random rand = new Random();
 
     public void setName(bagName name){
@@ -33,22 +33,22 @@ public class Bag {
         }
     }
 
-    public void addPebble(Entry<Integer, bagName> pebble){
+    public synchronized void addPebble(Entry<Integer, bagName> pebble){
         this.bagContents.add(pebble);
     }
-    public void addPebble(Integer value){
+    public synchronized void addPebble(Integer value){
         this.bagContents.add(new SimpleEntry<>(value, this.name));
     }
-    public void addPebble(Integer value, bagName bag){
+    public synchronized void addPebble(Integer value, bagName bag){
         this.bagContents.add(new SimpleEntry<>(value, bag));
     }
     public List<Entry<Integer, bagName>> getPebbles(){
         return this.bagContents;
     }
-    public void setPebbles(List<Entry<Integer, bagName>> pebbles){
+    public synchronized void setPebbles(List<Entry<Integer, bagName>> pebbles){
         this.bagContents = pebbles;
     }
-    public void clearPebbles(){
+    public synchronized void clearPebbles(){
         this.bagContents.clear();
     }
 
