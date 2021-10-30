@@ -5,6 +5,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.PasswordAuthentication;
 import java.util.Random;
 
 public class PebbleGame{
@@ -13,6 +14,8 @@ public class PebbleGame{
     private List<Bag> bags = new ArrayList();
     private List<Player> players = new ArrayList();
     private List<Thread> threadPool;
+    private PebbleGame game = this;
+    private Player winner;
 
     private Bag locateBag(bagName name){
         Bag desiredBag = null;
@@ -64,6 +67,7 @@ public class PebbleGame{
         private bagName previousPickBag;
         private FileWriter writer;
         Random random = new java.util.Random();
+        private PebbleGame game;
 
 
         private Boolean checkHand(){
@@ -87,7 +91,7 @@ public class PebbleGame{
             }
         }
 
-        public void pickAPebble(){
+        public synchronized void pickAPebble(){
             Entry<Integer, bagName> pebble = bags.get(random.nextInt(3)).getRandomPebble();
             this.playersHand.add(pebble);
             this.previousPickBag = pebble.getValue();
@@ -100,7 +104,7 @@ public class PebbleGame{
                 e.printStackTrace();
             }
         }
-        public void discardAPebble(){
+        public synchronized void discardAPebble(){
             Integer randInt = random.nextInt(10);
             Entry<Integer, bagName> pebble = this.playersHand.get(randInt);
             this.playersHand.remove(randInt);
@@ -124,6 +128,7 @@ public class PebbleGame{
 
         public Player(Integer playerNumber){
             this.playerNumber = playerNumber;
+            this.game = game;
             String fileName = "player"+playerNumber.toString()+"_output.txt";
             File file = new File(fileName);
 
@@ -139,18 +144,25 @@ public class PebbleGame{
                 System.out.println("An IOException occurred.");
                 e.printStackTrace();
             }
+        }
 
-            public void run(){
-                Boolean handStatus = false;
-                handStatus = checkHand();
+        public void run(){
+            for (int i=0; i<10; i++){
+                this.pickAPebble();
+            }
+            Boolean handStatus = false;
+            handStatus = checkHand();
+            while (!Thread.interrupted()){
                 while (!handStatus){
                     discardAPebble();
                     pickAPebble();
                     handStatus = checkHand();
                 }
-                // here i tell everyone i have a hand
+                winner = this;
+                game.notify();
             }
         }
+    }
 
     public PebbleGame(){
         //setup scanner
@@ -180,6 +192,15 @@ public class PebbleGame{
         for (Thread thread : threadPool){
             thread.start();
         }
+        try{
+            this.wait();
+            for (Thread thread : threadPool){
+                thread.interrupt();
+            }
+        }catch(InterruptedException e){
+            e.printStackTrace();
+        }
+
         
     }
 
@@ -187,5 +208,3 @@ public class PebbleGame{
         PebbleGame game = new PebbleGame();
     }
 }
-
-///game output files shoule be in cwd
