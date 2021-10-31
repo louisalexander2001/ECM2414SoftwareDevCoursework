@@ -76,6 +76,12 @@ public class PebbleGame{
                 total += pebble.getKey();
             }
             if (total == 100){
+                try{
+                    this.writer.write("!!!!!!!!Player" + this.playerNumber.toString() + " has a hand totalling 100\n");
+                }catch (IOException e){
+                    System.out.println("An IOException occurred.");
+                    e.printStackTrace();
+                }
                 return true;
             }else{
                 return false;
@@ -191,11 +197,11 @@ public class PebbleGame{
         this.numOfPlayers = 5;
         //create bags
         System.out.println("Please enter the location of bag X to load: ");
-        bags.add(new Bag(bagName.X, "example_file_1.csv"));
+        bags.add(new Bag(bagName.X, "example_file_3.txt"));
         System.out.println("Please enter the location of bag Y to load: "); 
-        bags.add(new Bag(bagName.Y, "example_file_1.csv"));
+        bags.add(new Bag(bagName.Y, "example_file_3.txt"));
         System.out.println("Please enter the location of bag Z to load: "); 
-        bags.add(new Bag(bagName.Z, "example_file_1.csv"));
+        bags.add(new Bag(bagName.Z, "example_file_3.txt"));
         bags.add(new Bag(bagName.A));
         bags.add(new Bag(bagName.B));
         bags.add(new Bag(bagName.C));
