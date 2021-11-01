@@ -17,7 +17,7 @@ public class PebbleGame{
     private PebbleGame game = this;
     private Player winner;
 
-    private Bag locateBag(bagName name){
+    private synchronized Bag locateBag(bagName name){
         Bag desiredBag = null;
         for (Bag bag : this.bags){
             if (bag.getName() == name){
@@ -70,7 +70,7 @@ public class PebbleGame{
         private PebbleGame game;
 
 
-        private Boolean checkHand(){
+        private synchronized Boolean checkHand(){
             int total = 0;
             for (Entry<Integer, bagName> pebble : this.playersHand){
                 total += pebble.getKey();
@@ -152,7 +152,7 @@ public class PebbleGame{
             }
         }
 
-        public synchronized void run(){
+        public void run(){
             for (int i=0; i<10; i++){
                 this.pickAPebble();
             }
@@ -233,3 +233,13 @@ public class PebbleGame{
         PebbleGame game = new PebbleGame();
     }
 }
+
+
+
+
+// notes to self. child thread (player) throws interrupt which parent thread (game) is listening for with isInterruped() and then the parent thread can intterupt al the other threads
+// my program might be going wrong due to deadlock
+
+// parent thread (game) should call wait() and then the child thread should notify the parent thread which then interrups all children. parent can then check for a winning hand 
+
+// using volitile may be useful
