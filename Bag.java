@@ -33,22 +33,22 @@ public class Bag {
         }
     }
 
-    public synchronized void addPebble(Entry<Integer, bagName> pebble){
+    public void addPebble(Entry<Integer, bagName> pebble){
         this.bagContents.add(pebble);
     }
-    public synchronized void addPebble(Integer value){
+    public void addPebble(Integer value){
         this.bagContents.add(new SimpleEntry<>(value, this.name));
     }
-    public synchronized void addPebble(Integer value, bagName bag){
+    public void addPebble(Integer value, bagName bag){
         this.bagContents.add(new SimpleEntry<>(value, bag));
     }
     public List<Entry<Integer, bagName>> getPebbles(){
         return this.bagContents;
     }
-    public synchronized void setPebbles(List<Entry<Integer, bagName>> pebbles){
+    public void setPebbles(List<Entry<Integer, bagName>> pebbles){
         this.bagContents = pebbles;
     }
-    public synchronized void clearPebbles(){
+    public void clearPebbles(){
         this.bagContents.clear();
     }
 
@@ -81,9 +81,10 @@ public class Bag {
         }
     }
 
-    public synchronized Entry<Integer, bagName> getRandomPebble(){
+    public Entry<Integer, bagName> getRandomPebble(){
+        System.out.println(bagContents.size());
         int randomInt = rand.nextInt(bagContents.size());
-        Entry<Integer, bagName> pebble = bagContents.get(randomInt);
+        Entry<Integer, bagName> pebble = this.bagContents.get(randomInt);
         bagContents.remove(randomInt);
         return pebble;
     }
@@ -94,7 +95,6 @@ public class Bag {
 
     public Bag(bagName name, String pebbleFile){
         setName(name);
-        System.out.println(pebbleFile);
         loadPebbles(pebbleFile);
     }
 }
