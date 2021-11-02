@@ -113,7 +113,8 @@ public class PebbleGame{
         public synchronized void discardAPebble(){
             Integer randInt = random.nextInt(10);
             Entry<Integer, bagName> pebble = this.playersHand.get(randInt);
-            this.playersHand.remove(playersHand.indexOf(pebble));
+            this.playersHand.remove(this.playersHand.indexOf(pebble));
+            pebble.setValue(this.previousPickBag);
             switch (this.previousPickBag){
                 case X:
                     bags.get(0).addPebble(pebble);
