@@ -15,7 +15,7 @@ public class PebbleGame{
     private List<Player> players = new ArrayList<Player>();
     private List<Thread> threadPool = new ArrayList<Thread>();
     private PebbleGame game = this;
-    private Player winner;
+    private volatile Player winner;
 
     private Bag locateBag(bagName name){
         Bag desiredBag = null;
@@ -53,6 +53,27 @@ public class PebbleGame{
 
     }
 
+    public synchronized void runGame(){
+        for (Thread thread : this.threadPool){
+            thread.start();
+        }
+        try{
+            winner.wait();
+        }catch (InterruptedException ex){
+            ex.printStackTrace();
+        }
+        for (Thread thread : this.threadPool){
+            thread.interrupt();
+        }
+    }
+
+    public void stop(){
+        System.out.println("Called");
+        for (Thread thread : this.threadPool){
+            thread.interrupt();
+        }
+    }
+
     public void safeQuit(){
         for (Player player : this.players){
             player.closeFile();
@@ -60,13 +81,13 @@ public class PebbleGame{
         System.out.println("All files are now closed.\n Thank you for playing.");
     }
 
-    class Player implements Runnable{
+    class Player extends Thread{
         
         private Integer playerNumber;
         private List<Entry<Integer, bagName>> playersHand = new ArrayList<Entry<Integer, bagName>>();
         private bagName previousPickBag;
         private FileWriter writer;
-        Random random = new java.util.Random();
+        private Random random = new java.util.Random();
         private PebbleGame game;
 
 
@@ -78,6 +99,7 @@ public class PebbleGame{
             if (total == 100){
                 try{
                     this.writer.write("!!!!!!!!Player" + this.playerNumber.toString() + " has a hand totalling 100\n");
+                    this.writer.flush();
                 }catch (IOException e){
                     System.out.println("An IOException occurred.");
                     e.printStackTrace();
@@ -99,45 +121,70 @@ public class PebbleGame{
 
         public void pickAPebble(){
             Bag randomBag = bags.get(random.nextInt(3));
-            if (randomBag.getPebbles().size() < 1){
-                refillBag(randomBag);
-            }
-            Entry<Integer, bagName> pebble = randomBag.getRandomPebble();
-            this.playersHand.add(pebble);
-            this.previousPickBag = pebble.getValue();
+            randomBag.bagLock.lock();
             try{
-                this.writer.write("Player" + this.playerNumber.toString() + " has drawn a " + pebble.getKey().toString() +
-                                  " from bag " + pebble.getValue().toString()+"\n");
-                this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
-            }catch (IOException e){
-                System.out.println("An IOException occurred.");
-                e.printStackTrace();
+                if (randomBag.isEmpty()){
+                    refillBag(randomBag);
+                }
+                Entry<Integer, bagName> pebble = randomBag.getRandomPebble();
+                this.playersHand.add(pebble);
+                this.previousPickBag = pebble.getValue();
+                try{
+                    System.out.println("Yes");
+                    this.writer.write("Player" + this.playerNumber.toString() + " has drawn a " + pebble.getKey().toString() +
+                                 " from bag " + pebble.getValue().toString()+"\n");
+                    this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
+                    this.writer.flush();
+                }catch (IOException e){
+                    System.out.println("An IOException occurred.");
+                    e.printStackTrace();
+                }
+            }finally{
+                randomBag.bagLock.unlock();
             }
         }
         public void discardAPebble(){
-            Integer randInt = random.nextInt(10);
-            Entry<Integer, bagName> pebble = this.playersHand.get(randInt);
+            Entry<Integer, bagName> pebble = this.playersHand.get(random.nextInt(10));
             this.playersHand.remove(this.playersHand.indexOf(pebble));
             pebble.setValue(this.previousPickBag);
             switch (this.previousPickBag){
                 case X:
-                    bags.get(3).addPebble(pebble);
+                    bags.get(3).bagLock.lock();
+                    try{
+                        bags.get(3).addPebble(pebble);
+                    }finally{
+                        bags.get(3).bagLock.unlock();
+                    }
+                    break;
                 case Y:
-                    bags.get(4).addPebble(pebble);
+                    bags.get(4).bagLock.lock();
+                    try{
+                        bags.get(4).addPebble(pebble);
+                    }finally{
+                        bags.get(4).bagLock.unlock();
+                    }
+                    break;
                 case Z:
-                    bags.get(5).addPebble(pebble);
+                    bags.get(5).bagLock.lock();
+                    try{
+                        bags.get(5).addPebble(pebble);
+                    }finally{
+                        bags.get(5).bagLock.unlock();
+                    }
+                    break;
             }
             try{
                 this.writer.write("Player" + this.playerNumber.toString() + " has discarded a " + pebble.getKey().toString() +
                                   " to bag " + this.previousPickBag.toString()+"\n");
                 this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
+                this.writer.flush();
             }catch (IOException e){
                 System.out.println("An IOException occurred.");
                 e.printStackTrace();
             }
         }
 
-        public Player(Integer playerNumber){
+        public Player(Integer playerNumber, PebbleGame game){
             this.playerNumber = playerNumber;
             this.game = game;
             String fileName = "player"+playerNumber.toString()+"_output.txt";
@@ -158,20 +205,21 @@ public class PebbleGame{
         }
 
         public void run(){
-            while (!Thread.interrupted()){
+            while ( !Thread.currentThread().isInterrupted() ) {
                 for (int i=0; i<10; i++){
                     this.pickAPebble();
                 }
-                Boolean handStatus = false;
-                handStatus = checkHand();
-                while (!handStatus){
+                Boolean winningHand = false;
+                winningHand = checkHand();
+                while (!winningHand){
                     discardAPebble();
                     pickAPebble();
-                    handStatus = checkHand();
+                    winningHand = checkHand();
                 }
-                winner = this;
-                notify();
+                game.winner = this;
+                game.stop();
             }
+            System.out.println("THREAD SHOULD BE INTERRUPTED");
         }
     }
 
@@ -201,24 +249,11 @@ public class PebbleGame{
         bags.add(new Bag(bagName.A));
         bags.add(new Bag(bagName.B));
         bags.add(new Bag(bagName.C));
-        // for (int i=0; i<this.numOfPlayers; i++){
-        //     this.players.add(new Player(i));
-        //     this.threadPool.add(new Thread(players.get(i)));
-        // }
-        // for (Bag bag : this.bags){
-        //     System.out.println(bag.bagContents.toString());
-        // }
-        // for (Thread thread : threadPool){
-        //     thread.start();
-        // }
-        // try{
-        //     wait();
-        // }catch (InterruptedException ex){
-        //     ex.printStackTrace();
-        // }
-        // for (Thread thread : threadPool){
-        //     thread.interrupt();
-        // }
+        for (int i=0; i<this.numOfPlayers; i++){
+            this.players.add(new Player(i, this));
+            this.threadPool.add(new Thread(players.get(i)));
+        }
+        this.runGame();
 
         
     }

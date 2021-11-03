@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.AbstractMap.SimpleEntry;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -10,13 +11,13 @@ import java.nio.file.Paths;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-
 enum bagName {A, B, C, X, Y, Z}
 
 public class Bag {
-    bagName name;
-    List<Entry<Integer, bagName>> bagContents = new ArrayList<Entry<Integer, bagName>>();
-    Random rand = new Random();
+    private bagName name;
+    private List<Entry<Integer, bagName>> bagContents = new ArrayList<Entry<Integer, bagName>>();
+    private Random rand = new Random();
+    public final ReentrantLock bagLock;
 
     public void setName(bagName name){
         this.name = name;
@@ -82,7 +83,7 @@ public class Bag {
     }
 
     public Entry<Integer, bagName> getRandomPebble(){
-        System.out.println(bagContents.size());
+        System.out.println(Thread.currentThread().getName() + " - " + bagContents.size() + " - " + this.name.toString());
         int randomInt = rand.nextInt(bagContents.size());
         Entry<Integer, bagName> pebble = this.bagContents.get(randomInt);
         bagContents.remove(randomInt);
@@ -91,10 +92,12 @@ public class Bag {
 
     public Bag(bagName name){
         setName(name);
+        bagLock = new ReentrantLock();
     }
 
     public Bag(bagName name, String pebbleFile){
         setName(name);
+        bagLock = new ReentrantLock();
         loadPebbles(pebbleFile);
     }
 }

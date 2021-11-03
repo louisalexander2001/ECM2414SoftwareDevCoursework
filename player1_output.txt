@@ -1,0 +1,22 @@
+Player1 has drawn a 10 from bag X
+Player1's hand is [10=X]
+Player1 has drawn a 9 from bag Z
+Player1's hand is [10=X, 9=Z]
+Player1 has drawn a 10 from bag Z
+Player1's hand is [10=X, 9=Z, 10=Z]
+Player1 has drawn a 10 from bag X
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X]
+Player1 has drawn a 10 from bag Z
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z]
+Player1 has drawn a 10 from bag X
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z, 10=X]
+Player1 has drawn a 10 from bag Y
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z, 10=X, 10=Y]
+Player1 has drawn a 10 from bag Y
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=Y]
+Player1 has drawn a 10 from bag X
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=Y, 10=X]
+Player1 has drawn a 10 from bag Z
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=Y, 10=X, 10=Z]
+Player1 has discarded a 10 to bag Z
+Player1's hand is [10=X, 9=Z, 10=Z, 10=X, 10=Z, 10=X, 10=Z, 10=X, 10=Z]

@@ -1,0 +1,21 @@
+Player3 has drawn a 10 from bag Z
+Player3's hand is [10=Z]
+Player3 has drawn a 10 from bag X
+Player3's hand is [10=Z, 10=X]
+Player3 has drawn a 10 from bag Z
+Player3's hand is [10=Z, 10=X, 10=Z]
+Player3 has drawn a 10 from bag X
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X]
+Player3 has drawn a 10 from bag Y
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X, 10=Y]
+Player3 has drawn a 10 from bag X
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=X]
+Player3 has drawn a 10 from bag Y
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=X, 10=Y]
+Player3 has drawn a 10 from bag Y
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=X, 10=Y, 10=Y]
+Player3 has drawn a 10 from bag X
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=X, 10=Y, 10=Y, 10=X]
+Player3 has drawn a 10 from bag Y
+Player3's hand is [10=Z, 10=X, 10=Z, 10=X, 10=Y, 10=X, 10=Y, 10=Y, 10=X, 10=Y]
+!!!!!!!!Player3 has a hand totalling 100
