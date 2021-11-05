@@ -58,7 +58,7 @@ public class PebbleGame{
             thread.start();
         }
         try{
-            winner.wait();
+            wait();
         }catch (InterruptedException ex){
             ex.printStackTrace();
         }
@@ -130,7 +130,6 @@ public class PebbleGame{
                 this.playersHand.add(pebble);
                 this.previousPickBag = pebble.getValue();
                 try{
-                    System.out.println("Yes");
                     this.writer.write("Player" + this.playerNumber.toString() + " has drawn a " + pebble.getKey().toString() +
                                  " from bag " + pebble.getValue().toString()+"\n");
                     this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
@@ -205,21 +204,22 @@ public class PebbleGame{
         }
 
         public void run(){
-            while ( !Thread.currentThread().isInterrupted() ) {
-                for (int i=0; i<10; i++){
-                    this.pickAPebble();
-                }
-                Boolean winningHand = false;
+            for (int i=0; i<10; i++){
+                this.pickAPebble();
+            }
+            Boolean winningHand = false;
+            winningHand = checkHand();
+            while (!Thread.currentThread().isInterrupted() && !winningHand){
+                discardAPebble();
+                pickAPebble();
                 winningHand = checkHand();
-                while (!winningHand){
-                    discardAPebble();
-                    pickAPebble();
-                    winningHand = checkHand();
-                }
+            }
+            if (winningHand){
                 game.winner = this;
                 game.stop();
             }
             System.out.println("THREAD SHOULD BE INTERRUPTED");
+            System.out.println("Player" + this.playerNumber.toString() + Thread.currentThread().getName() + "Has broken loop");
         }
     }
 
