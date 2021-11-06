@@ -27,7 +27,7 @@ public class Bag {
     }
 
     public Boolean isEmpty(){
-        if (this.bagContents.size() < 1){
+        if (this.bagContents.size() == 0){
             return true;
         }else{
             return false;

@@ -29,6 +29,10 @@ public class PebbleGame{
     }
 
     private void refillBag(Bag bag){
+        System.out.println("refil has been called");
+        for (Bag b : bags){
+            System.out.println(b.getName().toString() + b.getPebbles().size());
+        }
         switch (bag.getName()){
             case X:
                 Bag bagA = locateBag(bagName.A);
@@ -50,6 +54,10 @@ public class PebbleGame{
             default:
                 break;
         }
+        System.out.println("Becomes: ");
+        for (Bag b : bags){
+            System.out.println(b.getName().toString() + b.getPebbles().size());
+        }
 
     }
 
@@ -57,21 +65,19 @@ public class PebbleGame{
         for (Thread thread : this.threadPool){
             thread.start();
         }
-        try{
-            wait();
-        }catch (InterruptedException ex){
-            ex.printStackTrace();
-        }
-        for (Thread thread : this.threadPool){
-            thread.interrupt();
-        }
+    }
+
+    public void endGame(){
+        System.out.println("The winner was: " + this.winner.playerNumber.toString());
+        System.out.println("This is now the endgame method then the program should end.");
     }
 
     public void stop(){
-        System.out.println("Called");
+        System.out.println("Stop has been called");
         for (Thread thread : this.threadPool){
             thread.interrupt();
         }
+        this.endGame();
     }
 
     public void safeQuit(){
@@ -218,8 +224,6 @@ public class PebbleGame{
                 game.winner = this;
                 game.stop();
             }
-            System.out.println("THREAD SHOULD BE INTERRUPTED");
-            System.out.println("Player" + this.playerNumber.toString() + Thread.currentThread().getName() + "Has broken loop");
         }
     }
 
