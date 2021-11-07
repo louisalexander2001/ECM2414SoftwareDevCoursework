@@ -1,3 +1,5 @@
+package ECM2414SoftwareDevCoursework;
+
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
@@ -78,7 +80,7 @@ public class Bag {
                 line = reader.readLine();
             }
         }catch (IOException IOException){
-            IOException.printStackTrace();
+            System.out.println("Invalid file!");
         }
     }
 

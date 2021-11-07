@@ -1,1138 +1,1074 @@
-Player0 has drawn a 50 from bag X
-Player0's hand is [50=X]
-Player0 has drawn a 17 from bag Z
-Player0's hand is [50=X, 17=Z]
-Player0 has drawn a 72 from bag Y
-Player0's hand is [50=X, 17=Z, 72=Y]
-Player0 has drawn a 23 from bag Z
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z]
-Player0 has drawn a 2 from bag X
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 2=X]
-Player0 has drawn a 94 from bag X
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 2=X, 94=X]
-Player0 has drawn a 11 from bag Y
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 2=X, 94=X, 11=Y]
-Player0 has drawn a 82 from bag X
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 2=X, 94=X, 11=Y, 82=X]
-Player0 has drawn a 34 from bag X
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 2=X, 94=X, 11=Y, 82=X, 34=X]
-Player0 has drawn a 15 from bag Y
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 2=X, 94=X, 11=Y, 82=X, 34=X, 15=Y]
-Player0 has discarded a 2 to bag Y
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 15=Y]
-Player0 has drawn a 84 from bag Z
-Player0's hand is [50=X, 17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 15=Y, 84=Z]
-Player0 has discarded a 50 to bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 15=Y, 84=Z]
-Player0 has drawn a 45 from bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 15=Y, 84=Z, 45=Z]
-Player0 has discarded a 15 to bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 84=Z, 45=Z]
-Player0 has drawn a 29 from bag Y
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 84=Z, 45=Z, 29=Y]
-Player0 has discarded a 45 to bag Y
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 84=Z, 29=Y]
-Player0 has drawn a 46 from bag Y
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 11=Y, 82=X, 34=X, 84=Z, 29=Y, 46=Y]
-Player0 has discarded a 11 to bag Y
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 82=X, 34=X, 84=Z, 29=Y, 46=Y]
-Player0 has drawn a 68 from bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 82=X, 34=X, 84=Z, 29=Y, 46=Y, 68=Z]
-Player0 has discarded a 68 to bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 82=X, 34=X, 84=Z, 29=Y, 46=Y]
-Player0 has drawn a 2 from bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 82=X, 34=X, 84=Z, 29=Y, 46=Y, 2=Z]
-Player0 has discarded a 82 to bag Z
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 34=X, 84=Z, 29=Y, 46=Y, 2=Z]
-Player0 has drawn a 12 from bag X
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 34=X, 84=Z, 29=Y, 46=Y, 2=Z, 12=X]
-Player0 has discarded a 46 to bag X
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X]
-Player0 has drawn a 21 from bag Y
-Player0's hand is [17=Z, 72=Y, 23=Z, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y]
-Player0 has discarded a 23 to bag Y
-Player0's hand is [17=Z, 72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y]
-Player0 has drawn a 67 from bag Y
-Player0's hand is [17=Z, 72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y, 67=Y]
-Player0 has discarded a 17 to bag Y
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y, 67=Y]
-Player0 has drawn a 1 from bag Y
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y, 67=Y, 1=Y]
-Player0 has discarded a 67 to bag Y
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y, 1=Y]
-Player0 has drawn a 58 from bag Z
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 21=Y, 1=Y, 58=Z]
-Player0 has discarded a 21 to bag Z
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 1=Y, 58=Z]
-Player0 has drawn a 24 from bag Y
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 1=Y, 58=Z, 24=Y]
-Player0 has discarded a 1 to bag Y
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 58=Z, 24=Y]
-Player0 has drawn a 92 from bag Y
-Player0's hand is [72=Y, 94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 58=Z, 24=Y, 92=Y]
-Player0 has discarded a 72 to bag Y
-Player0's hand is [94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 58=Z, 24=Y, 92=Y]
-Player0 has drawn a 79 from bag X
-Player0's hand is [94=X, 34=X, 84=Z, 29=Y, 2=Z, 12=X, 58=Z, 24=Y, 92=Y, 79=X]
-Player0 has discarded a 12 to bag X
-Player0's hand is [94=X, 34=X, 84=Z, 29=Y, 2=Z, 58=Z, 24=Y, 92=Y, 79=X]
-Player0 has drawn a 62 from bag X
-Player0's hand is [94=X, 34=X, 84=Z, 29=Y, 2=Z, 58=Z, 24=Y, 92=Y, 79=X, 62=X]
-Player0 has discarded a 84 to bag X
-Player0's hand is [94=X, 34=X, 29=Y, 2=Z, 58=Z, 24=Y, 92=Y, 79=X, 62=X]
-Player0 has drawn a 46 from bag Z
-Player0's hand is [94=X, 34=X, 29=Y, 2=Z, 58=Z, 24=Y, 92=Y, 79=X, 62=X, 46=Z]
-Player0 has discarded a 92 to bag Z
-Player0's hand is [94=X, 34=X, 29=Y, 2=Z, 58=Z, 24=Y, 79=X, 62=X, 46=Z]
-Player0 has drawn a 4 from bag X
-Player0's hand is [94=X, 34=X, 29=Y, 2=Z, 58=Z, 24=Y, 79=X, 62=X, 46=Z, 4=X]
-Player0 has discarded a 2 to bag X
-Player0's hand is [94=X, 34=X, 29=Y, 58=Z, 24=Y, 79=X, 62=X, 46=Z, 4=X]
-Player0 has drawn a 22 from bag Y
-Player0's hand is [94=X, 34=X, 29=Y, 58=Z, 24=Y, 79=X, 62=X, 46=Z, 4=X, 22=Y]
-Player0 has discarded a 24 to bag Y
-Player0's hand is [94=X, 34=X, 29=Y, 58=Z, 79=X, 62=X, 46=Z, 4=X, 22=Y]
-Player0 has drawn a 71 from bag Z
-Player0's hand is [94=X, 34=X, 29=Y, 58=Z, 79=X, 62=X, 46=Z, 4=X, 22=Y, 71=Z]
-Player0 has discarded a 46 to bag Z
-Player0's hand is [94=X, 34=X, 29=Y, 58=Z, 79=X, 62=X, 4=X, 22=Y, 71=Z]
-Player0 has drawn a 69 from bag Y
-Player0's hand is [94=X, 34=X, 29=Y, 58=Z, 79=X, 62=X, 4=X, 22=Y, 71=Z, 69=Y]
-Player0 has discarded a 29 to bag Y
-Player0's hand is [94=X, 34=X, 58=Z, 79=X, 62=X, 4=X, 22=Y, 71=Z, 69=Y]
-Player0 has drawn a 52 from bag Y
-Player0's hand is [94=X, 34=X, 58=Z, 79=X, 62=X, 4=X, 22=Y, 71=Z, 69=Y, 52=Y]
-Player0 has discarded a 58 to bag Y
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 69=Y, 52=Y]
-Player0 has drawn a 99 from bag Z
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 69=Y, 52=Y, 99=Z]
-Player0 has discarded a 69 to bag Z
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 52=Y, 99=Z]
-Player0 has drawn a 93 from bag Y
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 52=Y, 99=Z, 93=Y]
-Player0 has discarded a 99 to bag Y
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 52=Y, 93=Y]
-Player0 has drawn a 26 from bag Y
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 52=Y, 93=Y, 26=Y]
-Player0 has discarded a 52 to bag Y
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y]
-Player0 has drawn a 92 from bag X
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y, 92=X]
-Player0 has discarded a 92 to bag X
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y]
-Player0 has drawn a 16 from bag X
-Player0's hand is [94=X, 34=X, 79=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y, 16=X]
-Player0 has discarded a 79 to bag X
-Player0's hand is [94=X, 34=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y, 16=X]
-Player0 has drawn a 89 from bag Y
-Player0's hand is [94=X, 34=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y, 16=X, 89=Y]
-Player0 has discarded a 94 to bag Y
-Player0's hand is [34=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y, 16=X, 89=Y]
-Player0 has drawn a 89 from bag Z
-Player0's hand is [34=X, 62=X, 4=X, 22=Y, 71=Z, 93=Y, 26=Y, 16=X, 89=Y, 89=Z]
-Player0 has discarded a 71 to bag Z
-Player0's hand is [34=X, 62=X, 4=X, 22=Y, 93=Y, 26=Y, 16=X, 89=Y, 89=Z]
-Player0 has drawn a 1 from bag Z
-Player0's hand is [34=X, 62=X, 4=X, 22=Y, 93=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z]
-Player0 has discarded a 93 to bag Z
-Player0's hand is [34=X, 62=X, 4=X, 22=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z]
-Player0 has drawn a 52 from bag Z
-Player0's hand is [34=X, 62=X, 4=X, 22=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z, 52=Z]
-Player0 has discarded a 4 to bag Z
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z, 52=Z]
-Player0 has drawn a 49 from bag Z
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z, 52=Z, 49=Z]
-Player0 has discarded a 49 to bag Z
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z, 52=Z]
-Player0 has drawn a 57 from bag Y
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 89=Z, 1=Z, 52=Z, 57=Y]
-Player0 has discarded a 89 to bag Y
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 1=Z, 52=Z, 57=Y]
-Player0 has drawn a 73 from bag Y
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 1=Z, 52=Z, 57=Y, 73=Y]
-Player0 has discarded a 57 to bag Y
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 1=Z, 52=Z, 73=Y]
-Player0 has drawn a 3 from bag Z
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 1=Z, 52=Z, 73=Y, 3=Z]
-Player0 has discarded a 1 to bag Z
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 52=Z, 73=Y, 3=Z]
-Player0 has drawn a 53 from bag Z
-Player0's hand is [34=X, 62=X, 22=Y, 26=Y, 16=X, 89=Y, 52=Z, 73=Y, 3=Z, 53=Z]
-Player0 has discarded a 62 to bag Z
-Player0's hand is [34=X, 22=Y, 26=Y, 16=X, 89=Y, 52=Z, 73=Y, 3=Z, 53=Z]
-Player0 has drawn a 45 from bag X
-Player0's hand is [34=X, 22=Y, 26=Y, 16=X, 89=Y, 52=Z, 73=Y, 3=Z, 53=Z, 45=X]
-Player0 has discarded a 22 to bag X
-Player0's hand is [34=X, 26=Y, 16=X, 89=Y, 52=Z, 73=Y, 3=Z, 53=Z, 45=X]
-Player0 has drawn a 63 from bag X
-Player0's hand is [34=X, 26=Y, 16=X, 89=Y, 52=Z, 73=Y, 3=Z, 53=Z, 45=X, 63=X]
-Player0 has discarded a 89 to bag X
-Player0's hand is [34=X, 26=Y, 16=X, 52=Z, 73=Y, 3=Z, 53=Z, 45=X, 63=X]
-Player0 has drawn a 17 from bag Y
-Player0's hand is [34=X, 26=Y, 16=X, 52=Z, 73=Y, 3=Z, 53=Z, 45=X, 63=X, 17=Y]
-Player0 has discarded a 3 to bag Y
-Player0's hand is [34=X, 26=Y, 16=X, 52=Z, 73=Y, 53=Z, 45=X, 63=X, 17=Y]
-Player0 has drawn a 59 from bag X
-Player0's hand is [34=X, 26=Y, 16=X, 52=Z, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X]
-Player0 has discarded a 26 to bag X
-Player0's hand is [34=X, 16=X, 52=Z, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X]
-Player0 has drawn a 7 from bag Y
-Player0's hand is [34=X, 16=X, 52=Z, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y]
-Player0 has discarded a 16 to bag Y
-Player0's hand is [34=X, 52=Z, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y]
-Player0 has drawn a 19 from bag Z
-Player0's hand is [34=X, 52=Z, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 19=Z]
-Player0 has discarded a 52 to bag Z
-Player0's hand is [34=X, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 19=Z]
-Player0 has drawn a 56 from bag X
-Player0's hand is [34=X, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 19=Z, 56=X]
-Player0 has discarded a 19 to bag X
-Player0's hand is [34=X, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 56=X]
-Player0 has drawn a 64 from bag Y
-Player0's hand is [34=X, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 56=X, 64=Y]
-Player0 has discarded a 64 to bag Y
-Player0's hand is [34=X, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 56=X]
-Player0 has drawn a 23 from bag X
-Player0's hand is [34=X, 73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 56=X, 23=X]
-Player0 has discarded a 34 to bag X
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 56=X, 23=X]
-Player0 has drawn a 47 from bag X
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 59=X, 7=Y, 56=X, 23=X, 47=X]
-Player0 has discarded a 59 to bag X
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 7=Y, 56=X, 23=X, 47=X]
-Player0 has drawn a 63 from bag Y
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 7=Y, 56=X, 23=X, 47=X, 63=Y]
-Player0 has discarded a 23 to bag Y
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 7=Y, 56=X, 47=X, 63=Y]
-Player0 has drawn a 29 from bag Z
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 7=Y, 56=X, 47=X, 63=Y, 29=Z]
-Player0 has discarded a 7 to bag Z
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z]
-Player0 has drawn a 36 from bag X
-Player0's hand is [73=Y, 53=Z, 45=X, 63=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X]
-Player0 has discarded a 73 to bag X
-Player0's hand is [53=Z, 45=X, 63=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X]
-Player0 has drawn a 85 from bag X
-Player0's hand is [53=Z, 45=X, 63=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X, 85=X]
-Player0 has discarded a 63 to bag X
-Player0's hand is [53=Z, 45=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X, 85=X]
-Player0 has drawn a 34 from bag Z
-Player0's hand is [53=Z, 45=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X, 85=X, 34=Z]
-Player0 has discarded a 53 to bag Z
-Player0's hand is [45=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X, 85=X, 34=Z]
-Player0 has drawn a 42 from bag Z
-Player0's hand is [45=X, 17=Y, 56=X, 47=X, 63=Y, 29=Z, 36=X, 85=X, 34=Z, 42=Z]
-Player0 has discarded a 63 to bag Z
-Player0's hand is [45=X, 17=Y, 56=X, 47=X, 29=Z, 36=X, 85=X, 34=Z, 42=Z]
-Player0 has drawn a 91 from bag Z
-Player0's hand is [45=X, 17=Y, 56=X, 47=X, 29=Z, 36=X, 85=X, 34=Z, 42=Z, 91=Z]
-Player0 has discarded a 56 to bag Z
-Player0's hand is [45=X, 17=Y, 47=X, 29=Z, 36=X, 85=X, 34=Z, 42=Z, 91=Z]
-Player0 has drawn a 86 from bag Z
-Player0's hand is [45=X, 17=Y, 47=X, 29=Z, 36=X, 85=X, 34=Z, 42=Z, 91=Z, 86=Z]
-Player0 has discarded a 45 to bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 36=X, 85=X, 34=Z, 42=Z, 91=Z, 86=Z]
-Player0 has drawn a 34 from bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 36=X, 85=X, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y]
-Player0 has discarded a 36 to bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 85=X, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y]
-Player0 has drawn a 10 from bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 85=X, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y]
-Player0 has discarded a 85 to bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y]
-Player0 has drawn a 51 from bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y, 51=Y]
-Player0 has discarded a 51 to bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y]
-Player0 has drawn a 67 from bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y, 67=Z]
-Player0 has discarded a 67 to bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y]
-Player0 has drawn a 31 from bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 34=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y, 31=Z]
-Player0 has discarded a 34 to bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y, 31=Z]
-Player0 has drawn a 28 from bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 91=Z, 86=Z, 34=Y, 10=Y, 31=Z, 28=X]
-Player0 has discarded a 10 to bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 91=Z, 86=Z, 34=Y, 31=Z, 28=X]
-Player0 has drawn a 66 from bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 91=Z, 86=Z, 34=Y, 31=Z, 28=X, 66=Z]
-Player0 has discarded a 91 to bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 86=Z, 34=Y, 31=Z, 28=X, 66=Z]
-Player0 has drawn a 2 from bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 86=Z, 34=Y, 31=Z, 28=X, 66=Z, 2=Y]
-Player0 has discarded a 86 to bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 34=Y, 31=Z, 28=X, 66=Z, 2=Y]
-Player0 has drawn a 59 from bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 34=Y, 31=Z, 28=X, 66=Z, 2=Y, 59=Y]
-Player0 has discarded a 59 to bag Y
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 34=Y, 31=Z, 28=X, 66=Z, 2=Y]
-Player0 has drawn a 57 from bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 34=Y, 31=Z, 28=X, 66=Z, 2=Y, 57=X]
-Player0 has discarded a 34 to bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 31=Z, 28=X, 66=Z, 2=Y, 57=X]
-Player0 has drawn a 74 from bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 31=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X]
-Player0 has discarded a 31 to bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X]
-Player0 has drawn a 1 from bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X, 1=X]
-Player0 has discarded a 1 to bag X
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X]
-Player0 has drawn a 4 from bag Z
-Player0's hand is [17=Y, 47=X, 29=Z, 42=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X, 4=Z]
-Player0 has discarded a 29 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X, 4=Z]
-Player0 has drawn a 64 from bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 2=Y, 57=X, 74=X, 4=Z, 64=X]
-Player0 has discarded a 2 to bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 57=X, 74=X, 4=Z, 64=X]
-Player0 has drawn a 98 from bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 57=X, 74=X, 4=Z, 64=X, 98=Y]
-Player0 has discarded a 57 to bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 74=X, 4=Z, 64=X, 98=Y]
-Player0 has drawn a 30 from bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 74=X, 4=Z, 64=X, 98=Y, 30=X]
-Player0 has discarded a 74 to bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 64=X, 98=Y, 30=X]
-Player0 has drawn a 39 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 64=X, 98=Y, 30=X, 39=Z]
-Player0 has discarded a 64 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 98=Y, 30=X, 39=Z]
-Player0 has drawn a 83 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 98=Y, 30=X, 39=Z, 83=Z]
-Player0 has discarded a 98 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 30=X, 39=Z, 83=Z]
-Player0 has drawn a 55 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 30=X, 39=Z, 83=Z, 55=Z]
-Player0 has discarded a 39 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 30=X, 83=Z, 55=Z]
-Player0 has drawn a 88 from bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 28=X, 66=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y]
-Player0 has discarded a 28 to bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 66=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y]
-Player0 has drawn a 79 from bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 66=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y, 79=Y]
-Player0 has discarded a 79 to bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 66=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y]
-Player0 has drawn a 15 from bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 66=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X]
-Player0 has discarded a 66 to bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X]
-Player0 has drawn a 40 from bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 4=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 40=X]
-Player0 has discarded a 4 to bag X
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 40=X]
-Player0 has drawn a 8 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 40=X, 8=Z]
-Player0 has discarded a 40 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 8=Z]
-Player0 has drawn a 65 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 8=Z, 65=Z]
-Player0 has discarded a 8 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 65=Z]
-Player0 has drawn a 56 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 55=Z, 88=Y, 15=X, 65=Z, 56=Z]
-Player0 has discarded a 55 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 88=Y, 15=X, 65=Z, 56=Z]
-Player0 has drawn a 76 from bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 83=Z, 88=Y, 15=X, 65=Z, 56=Z, 76=Y]
-Player0 has discarded a 83 to bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 88=Y, 15=X, 65=Z, 56=Z, 76=Y]
-Player0 has drawn a 27 from bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 88=Y, 15=X, 65=Z, 56=Z, 76=Y, 27=Y]
-Player0 has discarded a 27 to bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 88=Y, 15=X, 65=Z, 56=Z, 76=Y]
-Player0 has drawn a 32 from bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 30=X, 88=Y, 15=X, 65=Z, 56=Z, 76=Y, 32=Z]
-Player0 has discarded a 30 to bag Z
-Player0's hand is [17=Y, 47=X, 42=Z, 88=Y, 15=X, 65=Z, 56=Z, 76=Y, 32=Z]
-Player0 has drawn a 38 from bag Y
-Player0's hand is [17=Y, 47=X, 42=Z, 88=Y, 15=X, 65=Z, 56=Z, 76=Y, 32=Z, 38=Y]
-Player0 has discarded a 42 to bag Y
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 65=Z, 56=Z, 76=Y, 32=Z, 38=Y]
-Player0 has drawn a 66 from bag X
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 65=Z, 56=Z, 76=Y, 32=Z, 38=Y, 66=X]
-Player0 has discarded a 76 to bag X
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 65=Z, 56=Z, 32=Z, 38=Y, 66=X]
-Player0 has drawn a 81 from bag Y
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 65=Z, 56=Z, 32=Z, 38=Y, 66=X, 81=Y]
-Player0 has discarded a 38 to bag Y
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 65=Z, 56=Z, 32=Z, 66=X, 81=Y]
-Player0 has drawn a 80 from bag X
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 65=Z, 56=Z, 32=Z, 66=X, 81=Y, 80=X]
-Player0 has discarded a 65 to bag X
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 56=Z, 32=Z, 66=X, 81=Y, 80=X]
-Player0 has drawn a 74 from bag Z
-Player0's hand is [17=Y, 47=X, 88=Y, 15=X, 56=Z, 32=Z, 66=X, 81=Y, 80=X, 74=Z]
-Player0 has discarded a 88 to bag Z
-Player0's hand is [17=Y, 47=X, 15=X, 56=Z, 32=Z, 66=X, 81=Y, 80=X, 74=Z]
-Player0 has drawn a 19 from bag X
-Player0's hand is [17=Y, 47=X, 15=X, 56=Z, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 19=X]
-Player0 has discarded a 56 to bag X
-Player0's hand is [17=Y, 47=X, 15=X, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 19=X]
-Player0 has drawn a 26 from bag X
-Player0's hand is [17=Y, 47=X, 15=X, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 19=X, 26=X]
-Player0 has discarded a 19 to bag X
-Player0's hand is [17=Y, 47=X, 15=X, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 26=X]
-Player0 has drawn a 97 from bag X
-Player0's hand is [17=Y, 47=X, 15=X, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 26=X, 97=X]
-Player0 has discarded a 15 to bag X
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 26=X, 97=X]
-Player0 has drawn a 29 from bag X
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 80=X, 74=Z, 26=X, 97=X, 29=X]
-Player0 has discarded a 80 to bag X
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 74=Z, 26=X, 97=X, 29=X]
-Player0 has drawn a 70 from bag X
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 74=Z, 26=X, 97=X, 29=X, 70=X]
-Player0 has discarded a 70 to bag X
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 74=Z, 26=X, 97=X, 29=X]
-Player0 has drawn a 100 from bag Y
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 74=Z, 26=X, 97=X, 29=X, 100=Y]
-Player0 has discarded a 74 to bag Y
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 26=X, 97=X, 29=X, 100=Y]
-Player0 has drawn a 85 from bag Y
-Player0's hand is [17=Y, 47=X, 32=Z, 66=X, 81=Y, 26=X, 97=X, 29=X, 100=Y, 85=Y]
-Player0 has discarded a 66 to bag Y
-Player0's hand is [17=Y, 47=X, 32=Z, 81=Y, 26=X, 97=X, 29=X, 100=Y, 85=Y]
-Player0 has drawn a 32 from bag X
-Player0's hand is [17=Y, 47=X, 32=Z, 81=Y, 26=X, 97=X, 29=X, 100=Y, 85=Y, 32=X]
-Player0 has discarded a 47 to bag X
-Player0's hand is [17=Y, 32=Z, 81=Y, 26=X, 97=X, 29=X, 100=Y, 85=Y, 32=X]
-Player0 has drawn a 41 from bag X
-Player0's hand is [17=Y, 32=Z, 81=Y, 26=X, 97=X, 29=X, 100=Y, 85=Y, 32=X, 41=X]
-Player0 has discarded a 100 to bag X
-Player0's hand is [17=Y, 32=Z, 81=Y, 26=X, 97=X, 29=X, 85=Y, 32=X, 41=X]
-Player0 has drawn a 30 from bag Z
-Player0's hand is [17=Y, 32=Z, 81=Y, 26=X, 97=X, 29=X, 85=Y, 32=X, 41=X, 30=Z]
-Player0 has discarded a 41 to bag Z
-Player0's hand is [17=Y, 32=Z, 81=Y, 26=X, 97=X, 29=X, 85=Y, 32=X, 30=Z]
-Player0 has drawn a 79 from bag Z
-Player0's hand is [17=Y, 32=Z, 81=Y, 26=X, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z]
-Player0 has discarded a 26 to bag Z
-Player0's hand is [17=Y, 32=Z, 81=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z]
-Player0 has drawn a 20 from bag X
-Player0's hand is [17=Y, 32=Z, 81=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X]
-Player0 has discarded a 32 to bag X
-Player0's hand is [17=Y, 81=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X]
-Player0 has drawn a 75 from bag Y
-Player0's hand is [17=Y, 81=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X, 75=Y]
-Player0 has discarded a 75 to bag Y
-Player0's hand is [17=Y, 81=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X]
-Player0 has drawn a 4 from bag Y
-Player0's hand is [17=Y, 81=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X, 4=Y]
-Player0 has discarded a 81 to bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X, 4=Y]
-Player0 has drawn a 65 from bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 20=X, 4=Y, 65=X]
-Player0 has discarded a 20 to bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 4=Y, 65=X]
-Player0 has drawn a 59 from bag Z
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 32=X, 30=Z, 79=Z, 4=Y, 65=X, 59=Z]
-Player0 has discarded a 32 to bag Z
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 79=Z, 4=Y, 65=X, 59=Z]
-Player0 has drawn a 68 from bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 79=Z, 4=Y, 65=X, 59=Z, 68=X]
-Player0 has discarded a 65 to bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 79=Z, 4=Y, 59=Z, 68=X]
-Player0 has drawn a 70 from bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 79=Z, 4=Y, 59=Z, 68=X, 70=Y]
-Player0 has discarded a 79 to bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 4=Y, 59=Z, 68=X, 70=Y]
-Player0 has drawn a 70 from bag Z
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 4=Y, 59=Z, 68=X, 70=Y, 70=Z]
-Player0 has discarded a 4 to bag Z
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 59=Z, 68=X, 70=Y, 70=Z]
-Player0 has drawn a 78 from bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 59=Z, 68=X, 70=Y, 70=Z, 78=X]
-Player0 has discarded a 70 to bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 59=Z, 68=X, 70=Z, 78=X]
-Player0 has drawn a 17 from bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 59=Z, 68=X, 70=Z, 78=X, 17=X]
-Player0 has discarded a 70 to bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 59=Z, 68=X, 78=X, 17=X]
-Player0 has drawn a 74 from bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 30=Z, 59=Z, 68=X, 78=X, 17=X, 74=Y]
-Player0 has discarded a 30 to bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 59=Z, 68=X, 78=X, 17=X, 74=Y]
-Player0 has drawn a 60 from bag Z
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 59=Z, 68=X, 78=X, 17=X, 74=Y, 60=Z]
-Player0 has discarded a 17 to bag Z
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 59=Z, 68=X, 78=X, 74=Y, 60=Z]
-Player0 has drawn a 19 from bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 59=Z, 68=X, 78=X, 74=Y, 60=Z, 19=Y]
-Player0 has discarded a 68 to bag Y
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 59=Z, 78=X, 74=Y, 60=Z, 19=Y]
-Player0 has drawn a 5 from bag X
-Player0's hand is [17=Y, 97=X, 29=X, 85=Y, 59=Z, 78=X, 74=Y, 60=Z, 19=Y, 5=X]
-Player0 has discarded a 29 to bag X
-Player0's hand is [17=Y, 97=X, 85=Y, 59=Z, 78=X, 74=Y, 60=Z, 19=Y, 5=X]
-Player0 has drawn a 42 from bag Y
-Player0's hand is [17=Y, 97=X, 85=Y, 59=Z, 78=X, 74=Y, 60=Z, 19=Y, 5=X, 42=Y]
-Player0 has discarded a 78 to bag Y
-Player0's hand is [17=Y, 97=X, 85=Y, 59=Z, 74=Y, 60=Z, 19=Y, 5=X, 42=Y]
-Player0 has drawn a 44 from bag Z
-Player0's hand is [17=Y, 97=X, 85=Y, 59=Z, 74=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z]
-Player0 has discarded a 59 to bag Z
-Player0's hand is [17=Y, 97=X, 85=Y, 74=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z]
-Player0 has drawn a 49 from bag X
-Player0's hand is [17=Y, 97=X, 85=Y, 74=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X]
-Player0 has discarded a 17 to bag X
-Player0's hand is [97=X, 85=Y, 74=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X]
-Player0 has drawn a 69 from bag X
-Player0's hand is [97=X, 85=Y, 74=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X]
-Player0 has discarded a 74 to bag X
-Player0's hand is [97=X, 85=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X]
-Player0 has drawn a 22 from bag X
-Player0's hand is [97=X, 85=Y, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X]
-Player0 has discarded a 85 to bag X
-Player0's hand is [97=X, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X]
-Player0 has drawn a 51 from bag X
-Player0's hand is [97=X, 60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X]
-Player0 has discarded a 97 to bag X
-Player0's hand is [60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X]
-Player0 has drawn a 96 from bag X
-Player0's hand is [60=Z, 19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 96=X]
-Player0 has discarded a 60 to bag X
-Player0's hand is [19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 96=X]
-Player0 has drawn a 9 from bag Z
-Player0's hand is [19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 96=X, 9=Z]
-Player0 has discarded a 9 to bag Z
-Player0's hand is [19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 96=X]
-Player0 has drawn a 18 from bag Z
-Player0's hand is [19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 96=X, 18=Z]
-Player0 has discarded a 96 to bag Z
-Player0's hand is [19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 18=Z]
-Player0 has drawn a 48 from bag X
-Player0's hand is [19=Y, 5=X, 42=Y, 44=Z, 49=X, 69=X, 22=X, 51=X, 18=Z, 48=X]
-Player0 has discarded a 42 to bag X
-Player0's hand is [19=Y, 5=X, 44=Z, 49=X, 69=X, 22=X, 51=X, 18=Z, 48=X]
-Player0 has drawn a 31 from bag Y
-Player0's hand is [19=Y, 5=X, 44=Z, 49=X, 69=X, 22=X, 51=X, 18=Z, 48=X, 31=Y]
-Player0 has discarded a 49 to bag Y
-Player0's hand is [19=Y, 5=X, 44=Z, 69=X, 22=X, 51=X, 18=Z, 48=X, 31=Y]
-Player0 has drawn a 28 from bag Y
-Player0's hand is [19=Y, 5=X, 44=Z, 69=X, 22=X, 51=X, 18=Z, 48=X, 31=Y, 28=Y]
-Player0 has discarded a 44 to bag Y
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 51=X, 18=Z, 48=X, 31=Y, 28=Y]
-Player0 has drawn a 50 from bag Y
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 51=X, 18=Z, 48=X, 31=Y, 28=Y, 50=Y]
-Player0 has discarded a 51 to bag Y
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 48=X, 31=Y, 28=Y, 50=Y]
-Player0 has drawn a 77 from bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 48=X, 31=Y, 28=Y, 50=Y, 77=X]
-Player0 has discarded a 48 to bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 31=Y, 28=Y, 50=Y, 77=X]
-Player0 has drawn a 8 from bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 31=Y, 28=Y, 50=Y, 77=X, 8=X]
-Player0 has discarded a 28 to bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 31=Y, 50=Y, 77=X, 8=X]
-Player0 has drawn a 14 from bag Y
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 31=Y, 50=Y, 77=X, 8=X, 14=Y]
-Player0 has discarded a 8 to bag Y
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 31=Y, 50=Y, 77=X, 14=Y]
-Player0 has drawn a 50 from bag Z
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 31=Y, 50=Y, 77=X, 14=Y, 50=Z]
-Player0 has discarded a 31 to bag Z
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 50=Y, 77=X, 14=Y, 50=Z]
-Player0 has drawn a 76 from bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 50=Y, 77=X, 14=Y, 50=Z, 76=X]
-Player0 has discarded a 77 to bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 50=Y, 14=Y, 50=Z, 76=X]
-Player0 has drawn a 98 from bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 50=Y, 14=Y, 50=Z, 76=X, 98=X]
-Player0 has discarded a 50 to bag X
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 14=Y, 50=Z, 76=X, 98=X]
-Player0 has drawn a 66 from bag Y
-Player0's hand is [19=Y, 5=X, 69=X, 22=X, 18=Z, 14=Y, 50=Z, 76=X, 98=X, 66=Y]
-Player0 has discarded a 5 to bag Y
-Player0's hand is [19=Y, 69=X, 22=X, 18=Z, 14=Y, 50=Z, 76=X, 98=X, 66=Y]
-Player0 has drawn a 90 from bag X
-Player0's hand is [19=Y, 69=X, 22=X, 18=Z, 14=Y, 50=Z, 76=X, 98=X, 66=Y, 90=X]
-Player0 has discarded a 98 to bag X
-Player0's hand is [19=Y, 69=X, 22=X, 18=Z, 14=Y, 50=Z, 76=X, 66=Y, 90=X]
-Player0 has drawn a 14 from bag Z
-Player0's hand is [19=Y, 69=X, 22=X, 18=Z, 14=Y, 50=Z, 76=X, 66=Y, 90=X, 14=Z]
-Player0 has discarded a 50 to bag Z
-Player0's hand is [19=Y, 69=X, 22=X, 18=Z, 14=Y, 76=X, 66=Y, 90=X, 14=Z]
-Player0 has drawn a 43 from bag Y
-Player0's hand is [19=Y, 69=X, 22=X, 18=Z, 14=Y, 76=X, 66=Y, 90=X, 14=Z, 43=Y]
-Player0 has discarded a 19 to bag Y
-Player0's hand is [69=X, 22=X, 18=Z, 14=Y, 76=X, 66=Y, 90=X, 14=Z, 43=Y]
-Player0 has drawn a 90 from bag Z
-Player0's hand is [69=X, 22=X, 18=Z, 14=Y, 76=X, 66=Y, 90=X, 14=Z, 43=Y, 90=Z]
-Player0 has discarded a 43 to bag Z
-Player0's hand is [69=X, 22=X, 18=Z, 14=Y, 76=X, 66=Y, 90=X, 14=Z, 90=Z]
-Player0 has drawn a 21 from bag X
-Player0's hand is [69=X, 22=X, 18=Z, 14=Y, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X]
-Player0 has discarded a 14 to bag X
-Player0's hand is [69=X, 22=X, 18=Z, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X]
-Player0 has drawn a 87 from bag Y
-Player0's hand is [69=X, 22=X, 18=Z, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y]
-Player0 has discarded a 22 to bag Y
-Player0's hand is [69=X, 18=Z, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y]
-Player0 has drawn a 21 from bag Z
-Player0's hand is [69=X, 18=Z, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 21=Z]
-Player0 has discarded a 18 to bag Z
-Player0's hand is [69=X, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 21=Z]
-Player0 has drawn a 95 from bag X
-Player0's hand is [69=X, 76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 21=Z, 95=X]
-Player0 has discarded a 69 to bag X
-Player0's hand is [76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 21=Z, 95=X]
-Player0 has drawn a 91 from bag Y
-Player0's hand is [76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 21=Z, 95=X, 91=Y]
-Player0 has discarded a 21 to bag Y
-Player0's hand is [76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 95=X, 91=Y]
-Player0 has drawn a 78 from bag Y
-Player0's hand is [76=X, 66=Y, 90=X, 14=Z, 90=Z, 21=X, 87=Y, 95=X, 91=Y, 78=Y]
-Player0 has discarded a 90 to bag Y
-Player0's hand is [76=X, 66=Y, 14=Z, 90=Z, 21=X, 87=Y, 95=X, 91=Y, 78=Y]
-Player0 has drawn a 97 from bag Z
-Player0's hand is [76=X, 66=Y, 14=Z, 90=Z, 21=X, 87=Y, 95=X, 91=Y, 78=Y, 97=Z]
-Player0 has discarded a 87 to bag Z
-Player0's hand is [76=X, 66=Y, 14=Z, 90=Z, 21=X, 95=X, 91=Y, 78=Y, 97=Z]
-Player0 has drawn a 10 from bag X
-Player0's hand is [76=X, 66=Y, 14=Z, 90=Z, 21=X, 95=X, 91=Y, 78=Y, 97=Z, 10=X]
-Player0 has discarded a 90 to bag X
-Player0's hand is [76=X, 66=Y, 14=Z, 21=X, 95=X, 91=Y, 78=Y, 97=Z, 10=X]
-Player0 has drawn a 68 from bag Y
-Player0's hand is [76=X, 66=Y, 14=Z, 21=X, 95=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y]
-Player0 has discarded a 14 to bag Y
-Player0's hand is [76=X, 66=Y, 21=X, 95=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y]
-Player0 has drawn a 38 from bag X
-Player0's hand is [76=X, 66=Y, 21=X, 95=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 38=X]
-Player0 has discarded a 95 to bag X
-Player0's hand is [76=X, 66=Y, 21=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 38=X]
-Player0 has drawn a 86 from bag Y
-Player0's hand is [76=X, 66=Y, 21=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 38=X, 86=Y]
-Player0 has discarded a 38 to bag Y
-Player0's hand is [76=X, 66=Y, 21=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 86=Y]
-Player0 has drawn a 48 from bag Z
-Player0's hand is [76=X, 66=Y, 21=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z]
-Player0 has discarded a 76 to bag Z
-Player0's hand is [66=Y, 21=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z]
-Player0 has drawn a 46 from bag X
-Player0's hand is [66=Y, 21=X, 91=Y, 78=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z, 46=X]
-Player0 has discarded a 78 to bag X
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z, 46=X]
-Player0 has drawn a 56 from bag Y
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z, 46=X, 56=Y]
-Player0 has discarded a 46 to bag Y
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z, 56=Y]
-Player0 has drawn a 47 from bag Y
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 48=Z, 56=Y, 47=Y]
-Player0 has discarded a 48 to bag Y
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y]
-Player0 has drawn a 28 from bag Z
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 28=Z]
-Player0 has discarded a 28 to bag Z
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y]
-Player0 has drawn a 33 from bag X
-Player0's hand is [66=Y, 21=X, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 33=X]
-Player0 has discarded a 21 to bag X
-Player0's hand is [66=Y, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 33=X]
-Player0 has drawn a 67 from bag X
-Player0's hand is [66=Y, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 33=X, 67=X]
-Player0 has discarded a 33 to bag X
-Player0's hand is [66=Y, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 67=X]
-Player0 has drawn a 5 from bag Y
-Player0's hand is [66=Y, 91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 67=X, 5=Y]
-Player0 has discarded a 66 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 67=X, 5=Y]
-Player0 has drawn a 65 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 67=X, 5=Y, 65=Y]
-Player0 has discarded a 65 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 67=X, 5=Y]
-Player0 has drawn a 93 from bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 67=X, 5=Y, 93=X]
-Player0 has discarded a 67 to bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 5=Y, 93=X]
-Player0 has drawn a 27 from bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 5=Y, 93=X, 27=Z]
-Player0 has discarded a 5 to bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 93=X, 27=Z]
-Player0 has drawn a 5 from bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 93=X, 27=Z, 5=Z]
-Player0 has discarded a 27 to bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 93=X, 5=Z]
-Player0 has drawn a 8 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 86=Y, 56=Y, 47=Y, 93=X, 5=Z, 8=Y]
-Player0 has discarded a 86 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 56=Y, 47=Y, 93=X, 5=Z, 8=Y]
-Player0 has drawn a 40 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 68=Y, 56=Y, 47=Y, 93=X, 5=Z, 8=Y, 40=Y]
-Player0 has discarded a 68 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 5=Z, 8=Y, 40=Y]
-Player0 has drawn a 10 from bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 5=Z, 8=Y, 40=Y, 10=Z]
-Player0 has discarded a 5 to bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 8=Y, 40=Y, 10=Z]
-Player0 has drawn a 3 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 8=Y, 40=Y, 10=Z, 3=Y]
-Player0 has discarded a 10 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 8=Y, 40=Y, 3=Y]
-Player0 has drawn a 7 from bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 8=Y, 40=Y, 3=Y, 7=X]
-Player0 has discarded a 40 to bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 8=Y, 3=Y, 7=X]
-Player0 has drawn a 36 from bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 93=X, 8=Y, 3=Y, 7=X, 36=Z]
-Player0 has discarded a 93 to bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 36=Z]
-Player0 has drawn a 75 from bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 36=Z, 75=Z]
-Player0 has discarded a 75 to bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 36=Z]
-Player0 has drawn a 44 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 36=Z, 44=Y]
-Player0 has discarded a 44 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 36=Z]
-Player0 has drawn a 22 from bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 36=Z, 22=Z]
-Player0 has discarded a 36 to bag Z
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 22=Z]
-Player0 has drawn a 37 from bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 8=Y, 3=Y, 7=X, 22=Z, 37=X]
-Player0 has discarded a 8 to bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 3=Y, 7=X, 22=Z, 37=X]
-Player0 has drawn a 24 from bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 3=Y, 7=X, 22=Z, 37=X, 24=X]
-Player0 has discarded a 3 to bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 37=X, 24=X]
-Player0 has drawn a 30 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 37=X, 24=X, 30=Y]
-Player0 has discarded a 24 to bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 37=X, 30=Y]
-Player0 has drawn a 81 from bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 37=X, 30=Y, 81=X]
-Player0 has discarded a 37 to bag X
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 81=X]
-Player0 has drawn a 12 from bag Y
-Player0's hand is [91=Y, 97=Z, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 81=X, 12=Y]
-Player0 has discarded a 97 to bag Y
-Player0's hand is [91=Y, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 81=X, 12=Y]
-Player0 has drawn a 25 from bag Z
-Player0's hand is [91=Y, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 81=X, 12=Y, 25=Z]
-Player0 has discarded a 81 to bag Z
-Player0's hand is [91=Y, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 12=Y, 25=Z]
-Player0 has drawn a 20 from bag Y
-Player0's hand is [91=Y, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 12=Y, 25=Z, 20=Y]
-Player0 has discarded a 12 to bag Y
-Player0's hand is [91=Y, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 25=Z, 20=Y]
-Player0 has drawn a 99 from bag X
-Player0's hand is [91=Y, 10=X, 56=Y, 47=Y, 7=X, 22=Z, 30=Y, 25=Z, 20=Y, 99=X]
-Player0 has discarded a 47 to bag X
-Player0's hand is [91=Y, 10=X, 56=Y, 7=X, 22=Z, 30=Y, 25=Z, 20=Y, 99=X]
-Player0 has drawn a 52 from bag X
-Player0's hand is [91=Y, 10=X, 56=Y, 7=X, 22=Z, 30=Y, 25=Z, 20=Y, 99=X, 52=X]
-Player0 has discarded a 10 to bag X
-Player0's hand is [91=Y, 56=Y, 7=X, 22=Z, 30=Y, 25=Z, 20=Y, 99=X, 52=X]
-Player0 has drawn a 90 from bag Y
-Player0's hand is [91=Y, 56=Y, 7=X, 22=Z, 30=Y, 25=Z, 20=Y, 99=X, 52=X, 90=Y]
-Player0 has discarded a 20 to bag Y
-Player0's hand is [91=Y, 56=Y, 7=X, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y]
-Player0 has drawn a 25 from bag Y
-Player0's hand is [91=Y, 56=Y, 7=X, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y]
-Player0 has discarded a 7 to bag Y
-Player0's hand is [91=Y, 56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y]
-Player0 has drawn a 55 from bag X
-Player0's hand is [91=Y, 56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X]
-Player0 has discarded a 91 to bag X
-Player0's hand is [56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X]
-Player0 has drawn a 86 from bag X
-Player0's hand is [56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X, 86=X]
-Player0 has discarded a 86 to bag X
-Player0's hand is [56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X]
-Player0 has drawn a 40 from bag Z
-Player0's hand is [56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X, 40=Z]
-Player0 has discarded a 40 to bag Z
-Player0's hand is [56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X]
-Player0 has drawn a 37 from bag Y
-Player0's hand is [56=Y, 22=Z, 30=Y, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X, 37=Y]
-Player0 has discarded a 30 to bag Y
-Player0's hand is [56=Y, 22=Z, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X, 37=Y]
-Player0 has drawn a 51 from bag Z
-Player0's hand is [56=Y, 22=Z, 25=Z, 99=X, 52=X, 90=Y, 25=Y, 55=X, 37=Y, 51=Z]
-Player0 has discarded a 52 to bag Z
-Player0's hand is [56=Y, 22=Z, 25=Z, 99=X, 90=Y, 25=Y, 55=X, 37=Y, 51=Z]
-Player0 has drawn a 18 from bag X
-Player0's hand is [56=Y, 22=Z, 25=Z, 99=X, 90=Y, 25=Y, 55=X, 37=Y, 51=Z, 18=X]
-Player0 has discarded a 99 to bag X
-Player0's hand is [56=Y, 22=Z, 25=Z, 90=Y, 25=Y, 55=X, 37=Y, 51=Z, 18=X]
-Player0 has drawn a 96 from bag Y
-Player0's hand is [56=Y, 22=Z, 25=Z, 90=Y, 25=Y, 55=X, 37=Y, 51=Z, 18=X, 96=Y]
-Player0 has discarded a 90 to bag Y
-Player0's hand is [56=Y, 22=Z, 25=Z, 25=Y, 55=X, 37=Y, 51=Z, 18=X, 96=Y]
-Player0 has drawn a 16 from bag Z
-Player0's hand is [56=Y, 22=Z, 25=Z, 25=Y, 55=X, 37=Y, 51=Z, 18=X, 96=Y, 16=Z]
-Player0 has discarded a 55 to bag Z
-Player0's hand is [56=Y, 22=Z, 25=Z, 25=Y, 37=Y, 51=Z, 18=X, 96=Y, 16=Z]
-Player0 has drawn a 58 from bag X
-Player0's hand is [56=Y, 22=Z, 25=Z, 25=Y, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X]
-Player0 has discarded a 25 to bag X
-Player0's hand is [56=Y, 22=Z, 25=Y, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X]
-Player0 has drawn a 85 from bag Z
-Player0's hand is [56=Y, 22=Z, 25=Y, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 85=Z]
-Player0 has discarded a 56 to bag Z
-Player0's hand is [22=Z, 25=Y, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 85=Z]
-Player0 has drawn a 95 from bag Y
-Player0's hand is [22=Z, 25=Y, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 85=Z, 95=Y]
-Player0 has discarded a 25 to bag Y
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 85=Z, 95=Y]
-Player0 has drawn a 60 from bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 85=Z, 95=Y, 60=X]
-Player0 has discarded a 85 to bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 95=Y, 60=X]
-Player0 has drawn a 53 from bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 16=Z, 58=X, 95=Y, 60=X, 53=X]
-Player0 has discarded a 16 to bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 58=X, 95=Y, 60=X, 53=X]
-Player0 has drawn a 42 from bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 58=X, 95=Y, 60=X, 53=X, 42=X]
-Player0 has discarded a 42 to bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 58=X, 95=Y, 60=X, 53=X]
-Player0 has drawn a 71 from bag Y
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 96=Y, 58=X, 95=Y, 60=X, 53=X, 71=Y]
-Player0 has discarded a 96 to bag Y
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 58=X, 95=Y, 60=X, 53=X, 71=Y]
-Player0 has drawn a 73 from bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 58=X, 95=Y, 60=X, 53=X, 71=Y, 73=X]
-Player0 has discarded a 95 to bag X
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 58=X, 60=X, 53=X, 71=Y, 73=X]
-Player0 has drawn a 35 from bag Z
-Player0's hand is [22=Z, 37=Y, 51=Z, 18=X, 58=X, 60=X, 53=X, 71=Y, 73=X, 35=Z]
-Player0 has discarded a 37 to bag Z
-Player0's hand is [22=Z, 51=Z, 18=X, 58=X, 60=X, 53=X, 71=Y, 73=X, 35=Z]
-Player0 has drawn a 9 from bag X
-Player0's hand is [22=Z, 51=Z, 18=X, 58=X, 60=X, 53=X, 71=Y, 73=X, 35=Z, 9=X]
-Player0 has discarded a 71 to bag X
-Player0's hand is [22=Z, 51=Z, 18=X, 58=X, 60=X, 53=X, 73=X, 35=Z, 9=X]
-Player0 has drawn a 45 from bag Y
-Player0's hand is [22=Z, 51=Z, 18=X, 58=X, 60=X, 53=X, 73=X, 35=Z, 9=X, 45=Y]
-Player0 has discarded a 73 to bag Y
-Player0's hand is [22=Z, 51=Z, 18=X, 58=X, 60=X, 53=X, 35=Z, 9=X, 45=Y]
-Player0 has drawn a 54 from bag Y
-Player0's hand is [22=Z, 51=Z, 18=X, 58=X, 60=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y]
-Player0 has discarded a 58 to bag Y
-Player0's hand is [22=Z, 51=Z, 18=X, 60=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y]
-Player0 has drawn a 87 from bag X
-Player0's hand is [22=Z, 51=Z, 18=X, 60=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y, 87=X]
-Player0 has discarded a 22 to bag X
-Player0's hand is [51=Z, 18=X, 60=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y, 87=X]
-Player0 has drawn a 80 from bag Y
-Player0's hand is [51=Z, 18=X, 60=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y, 87=X, 80=Y]
-Player0 has discarded a 60 to bag Y
-Player0's hand is [51=Z, 18=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y, 87=X, 80=Y]
-Player0 has drawn a 20 from bag Z
-Player0's hand is [51=Z, 18=X, 53=X, 35=Z, 9=X, 45=Y, 54=Y, 87=X, 80=Y, 20=Z]
-Player0 has discarded a 54 to bag Z
-Player0's hand is [51=Z, 18=X, 53=X, 35=Z, 9=X, 45=Y, 87=X, 80=Y, 20=Z]
-Player0 has drawn a 41 from bag Y
-Player0's hand is [51=Z, 18=X, 53=X, 35=Z, 9=X, 45=Y, 87=X, 80=Y, 20=Z, 41=Y]
-Player0 has discarded a 53 to bag Y
-Player0's hand is [51=Z, 18=X, 35=Z, 9=X, 45=Y, 87=X, 80=Y, 20=Z, 41=Y]
-Player0 has drawn a 62 from bag Z
-Player0's hand is [51=Z, 18=X, 35=Z, 9=X, 45=Y, 87=X, 80=Y, 20=Z, 41=Y, 62=Z]
-Player0 has discarded a 18 to bag Z
-Player0's hand is [51=Z, 35=Z, 9=X, 45=Y, 87=X, 80=Y, 20=Z, 41=Y, 62=Z]
-Player0 has drawn a 47 from bag Z
-Player0's hand is [51=Z, 35=Z, 9=X, 45=Y, 87=X, 80=Y, 20=Z, 41=Y, 62=Z, 47=Z]
-Player0 has discarded a 9 to bag Z
-Player0's hand is [51=Z, 35=Z, 45=Y, 87=X, 80=Y, 20=Z, 41=Y, 62=Z, 47=Z]
-Player0 has drawn a 60 from bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 87=X, 80=Y, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y]
-Player0 has discarded a 80 to bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 87=X, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y]
-Player0 has drawn a 61 from bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 87=X, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y, 61=Y]
-Player0 has discarded a 61 to bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 87=X, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y]
-Player0 has drawn a 61 from bag X
-Player0's hand is [51=Z, 35=Z, 45=Y, 87=X, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y, 61=X]
-Player0 has discarded a 87 to bag X
-Player0's hand is [51=Z, 35=Z, 45=Y, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y, 61=X]
-Player0 has drawn a 96 from bag Z
-Player0's hand is [51=Z, 35=Z, 45=Y, 20=Z, 41=Y, 62=Z, 47=Z, 60=Y, 61=X, 96=Z]
-Player0 has discarded a 60 to bag Z
-Player0's hand is [51=Z, 35=Z, 45=Y, 20=Z, 41=Y, 62=Z, 47=Z, 61=X, 96=Z]
-Player0 has drawn a 6 from bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 20=Z, 41=Y, 62=Z, 47=Z, 61=X, 96=Z, 6=Y]
-Player0 has discarded a 62 to bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y]
-Player0 has drawn a 35 from bag Y
-Player0's hand is [51=Z, 35=Z, 45=Y, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 35=Y]
-Player0 has discarded a 51 to bag Y
-Player0's hand is [35=Z, 45=Y, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 35=Y]
-Player0 has drawn a 92 from bag Z
-Player0's hand is [35=Z, 45=Y, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 35=Y, 92=Z]
-Player0 has discarded a 35 to bag Z
-Player0's hand is [35=Z, 45=Y, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 92=Z]
-Player0 has drawn a 84 from bag X
-Player0's hand is [35=Z, 45=Y, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X]
-Player0 has discarded a 45 to bag X
-Player0's hand is [35=Z, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X]
-Player0 has drawn a 63 from bag Z
-Player0's hand is [35=Z, 20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X, 63=Z]
-Player0 has discarded a 35 to bag Z
-Player0's hand is [20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X, 63=Z]
-Player0 has drawn a 6 from bag Z
-Player0's hand is [20=Z, 41=Y, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X, 63=Z, 6=Z]
-Player0 has discarded a 41 to bag Z
-Player0's hand is [20=Z, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X, 63=Z, 6=Z]
-Player0 has drawn a 27 from bag X
-Player0's hand is [20=Z, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 84=X, 63=Z, 6=Z, 27=X]
-Player0 has discarded a 84 to bag X
-Player0's hand is [20=Z, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 63=Z, 6=Z, 27=X]
-Player0 has drawn a 23 from bag Y
-Player0's hand is [20=Z, 47=Z, 61=X, 96=Z, 6=Y, 92=Z, 63=Z, 6=Z, 27=X, 23=Y]
-Player0 has discarded a 96 to bag Y
-Player0's hand is [20=Z, 47=Z, 61=X, 6=Y, 92=Z, 63=Z, 6=Z, 27=X, 23=Y]
-Player0 has drawn a 83 from bag Y
-Player0's hand is [20=Z, 47=Z, 61=X, 6=Y, 92=Z, 63=Z, 6=Z, 27=X, 23=Y, 83=Y]
-Player0 has discarded a 92 to bag Y
-Player0's hand is [20=Z, 47=Z, 61=X, 6=Y, 63=Z, 6=Z, 27=X, 23=Y, 83=Y]
-Player0 has drawn a 61 from bag Z
-Player0's hand is [20=Z, 47=Z, 61=X, 6=Y, 63=Z, 6=Z, 27=X, 23=Y, 83=Y, 61=Z]
-Player0 has discarded a 63 to bag Z
-Player0's hand is [20=Z, 47=Z, 61=X, 6=Y, 6=Z, 27=X, 23=Y, 83=Y, 61=Z]
-Player0 has drawn a 94 from bag Z
-Player0's hand is [20=Z, 47=Z, 61=X, 6=Y, 6=Z, 27=X, 23=Y, 83=Y, 61=Z, 94=Z]
-Player0 has discarded a 47 to bag Z
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 27=X, 23=Y, 83=Y, 61=Z, 94=Z]
-Player0 has drawn a 11 from bag X
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 27=X, 23=Y, 83=Y, 61=Z, 94=Z, 11=X]
-Player0 has discarded a 27 to bag X
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 83=Y, 61=Z, 94=Z, 11=X]
-Player0 has drawn a 77 from bag Z
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 83=Y, 61=Z, 94=Z, 11=X, 77=Z]
-Player0 has discarded a 11 to bag Z
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 83=Y, 61=Z, 94=Z, 77=Z]
-Player0 has drawn a 26 from bag Z
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 83=Y, 61=Z, 94=Z, 77=Z, 26=Z]
-Player0 has discarded a 94 to bag Z
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 83=Y, 61=Z, 77=Z, 26=Z]
-Player0 has drawn a 18 from bag Y
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 83=Y, 61=Z, 77=Z, 26=Z, 18=Y]
-Player0 has discarded a 83 to bag Y
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 61=Z, 77=Z, 26=Z, 18=Y]
-Player0 has drawn a 41 from bag Z
-Player0's hand is [20=Z, 61=X, 6=Y, 6=Z, 23=Y, 61=Z, 77=Z, 26=Z, 18=Y, 41=Z]
-Player0 has discarded a 20 to bag Z
-Player0's hand is [61=X, 6=Y, 6=Z, 23=Y, 61=Z, 77=Z, 26=Z, 18=Y, 41=Z]
-Player0 has drawn a 15 from bag Z
-Player0's hand is [61=X, 6=Y, 6=Z, 23=Y, 61=Z, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z]
-Player0 has discarded a 61 to bag Z
-Player0's hand is [61=X, 6=Y, 6=Z, 23=Y, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z]
-Player0 has drawn a 48 from bag Y
-Player0's hand is [61=X, 6=Y, 6=Z, 23=Y, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y]
-Player0 has discarded a 6 to bag Y
-Player0's hand is [61=X, 6=Y, 23=Y, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y]
 Player0 has drawn a 84 from bag Y
-Player0's hand is [61=X, 6=Y, 23=Y, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y]
-Player0 has discarded a 6 to bag Y
-Player0's hand is [61=X, 23=Y, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y]
-Player0 has drawn a 36 from bag Y
-Player0's hand is [61=X, 23=Y, 77=Z, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y, 36=Y]
-Player0 has discarded a 77 to bag Y
-Player0's hand is [61=X, 23=Y, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y, 36=Y]
-Player0 has drawn a 58 from bag Y
-Player0's hand is [61=X, 23=Y, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y, 36=Y, 58=Y]
-Player0 has discarded a 36 to bag Y
-Player0's hand is [61=X, 23=Y, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y, 58=Y]
-Player0 has drawn a 35 from bag X
-Player0's hand is [61=X, 23=Y, 26=Z, 18=Y, 41=Z, 15=Z, 48=Y, 84=Y, 58=Y, 35=X]
-Player0 has discarded a 48 to bag X
-Player0's hand is [61=X, 23=Y, 26=Z, 18=Y, 41=Z, 15=Z, 84=Y, 58=Y, 35=X]
-Player0 has drawn a 32 from bag Y
-Player0's hand is [61=X, 23=Y, 26=Z, 18=Y, 41=Z, 15=Z, 84=Y, 58=Y, 35=X, 32=Y]
-Player0 has discarded a 18 to bag Y
-Player0's hand is [61=X, 23=Y, 26=Z, 41=Z, 15=Z, 84=Y, 58=Y, 35=X, 32=Y]
-Player0 has drawn a 43 from bag X
-Player0's hand is [61=X, 23=Y, 26=Z, 41=Z, 15=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X]
-Player0 has discarded a 15 to bag X
-Player0's hand is [61=X, 23=Y, 26=Z, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X]
-Player0 has drawn a 39 from bag X
-Player0's hand is [61=X, 23=Y, 26=Z, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X]
-Player0 has discarded a 61 to bag X
-Player0's hand is [23=Y, 26=Z, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X]
-Player0 has drawn a 37 from bag Z
-Player0's hand is [23=Y, 26=Z, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X, 37=Z]
-Player0 has discarded a 26 to bag Z
-Player0's hand is [23=Y, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X, 37=Z]
-Player0 has drawn a 53 from bag Y
-Player0's hand is [23=Y, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X, 37=Z, 53=Y]
-Player0 has discarded a 37 to bag Y
-Player0's hand is [23=Y, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X, 53=Y]
-Player0 has drawn a 89 from bag X
-Player0's hand is [23=Y, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 39=X, 53=Y, 89=X]
-Player0 has discarded a 39 to bag X
-Player0's hand is [23=Y, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X]
-Player0 has drawn a 57 from bag Z
-Player0's hand is [23=Y, 41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z]
-Player0 has discarded a 23 to bag Z
-Player0's hand is [41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z]
-Player0 has drawn a 91 from bag X
-Player0's hand is [41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z, 91=X]
-Player0 has discarded a 91 to bag X
-Player0's hand is [41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z]
-Player0 has drawn a 54 from bag X
-Player0's hand is [41=Z, 84=Y, 58=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z, 54=X]
-Player0 has discarded a 58 to bag X
-Player0's hand is [41=Z, 84=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z, 54=X]
-Player0 has drawn a 62 from bag Y
-Player0's hand is [41=Z, 84=Y, 35=X, 32=Y, 43=X, 53=Y, 89=X, 57=Z, 54=X, 62=Y]
-Player0 has discarded a 35 to bag Y
-Player0's hand is [41=Z, 84=Y, 32=Y, 43=X, 53=Y, 89=X, 57=Z, 54=X, 62=Y]
-Player0 has drawn a 88 from bag Z
-Player0's hand is [41=Z, 84=Y, 32=Y, 43=X, 53=Y, 89=X, 57=Z, 54=X, 62=Y, 88=Z]
-Player0 has discarded a 57 to bag Z
-Player0's hand is [41=Z, 84=Y, 32=Y, 43=X, 53=Y, 89=X, 54=X, 62=Y, 88=Z]
-Player0 has drawn a 83 from bag X
-Player0's hand is [41=Z, 84=Y, 32=Y, 43=X, 53=Y, 89=X, 54=X, 62=Y, 88=Z, 83=X]
-Player0 has discarded a 89 to bag X
-Player0's hand is [41=Z, 84=Y, 32=Y, 43=X, 53=Y, 54=X, 62=Y, 88=Z, 83=X]
-Player0 has drawn a 88 from bag X
-Player0's hand is [41=Z, 84=Y, 32=Y, 43=X, 53=Y, 54=X, 62=Y, 88=Z, 83=X, 88=X]
-Player0 has discarded a 41 to bag X
-Player0's hand is [84=Y, 32=Y, 43=X, 53=Y, 54=X, 62=Y, 88=Z, 83=X, 88=X]
-Player0 has drawn a 12 from bag Z
-Player0's hand is [84=Y, 32=Y, 43=X, 53=Y, 54=X, 62=Y, 88=Z, 83=X, 88=X, 12=Z]
-Player0 has discarded a 53 to bag Z
-Player0's hand is [84=Y, 32=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 88=X, 12=Z]
-Player0 has drawn a 77 from bag Y
-Player0's hand is [84=Y, 32=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 88=X, 12=Z, 77=Y]
-Player0 has discarded a 88 to bag Y
-Player0's hand is [84=Y, 32=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 12=Z, 77=Y]
-Player0 has drawn a 49 from bag Y
-Player0's hand is [84=Y, 32=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 12=Z, 77=Y, 49=Y]
-Player0 has discarded a 77 to bag Y
-Player0's hand is [84=Y, 32=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 12=Z, 49=Y]
-Player0 has drawn a 75 from bag X
-Player0's hand is [84=Y, 32=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 12=Z, 49=Y, 75=X]
-Player0 has discarded a 32 to bag X
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 12=Z, 49=Y, 75=X]
-Player0 has drawn a 6 from bag X
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 83=X, 12=Z, 49=Y, 75=X, 6=X]
-Player0 has discarded a 83 to bag X
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 49=Y, 75=X, 6=X]
-Player0 has drawn a 100 from bag X
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 49=Y, 75=X, 6=X, 100=X]
-Player0 has discarded a 100 to bag X
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 49=Y, 75=X, 6=X]
-Player0 has drawn a 100 from bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 49=Y, 75=X, 6=X, 100=Z]
-Player0 has discarded a 49 to bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 75=X, 6=X, 100=Z]
-Player0 has drawn a 99 from bag Y
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 75=X, 6=X, 100=Z, 99=Y]
-Player0 has discarded a 6 to bag Y
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 75=X, 100=Z, 99=Y]
-Player0 has drawn a 82 from bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 12=Z, 75=X, 100=Z, 99=Y, 82=Z]
-Player0 has discarded a 12 to bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 75=X, 100=Z, 99=Y, 82=Z]
-Player0 has drawn a 98 from bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 75=X, 100=Z, 99=Y, 82=Z, 98=Z]
-Player0 has discarded a 100 to bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 75=X, 99=Y, 82=Z, 98=Z]
-Player0 has drawn a 81 from bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 75=X, 99=Y, 82=Z, 98=Z, 81=Z]
-Player0 has discarded a 99 to bag Z
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 75=X, 82=Z, 98=Z, 81=Z]
-Player0 has drawn a 94 from bag Y
-Player0's hand is [84=Y, 43=X, 54=X, 62=Y, 88=Z, 75=X, 82=Z, 98=Z, 81=Z, 94=Y]
-Player0 has discarded a 84 to bag Y
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 75=X, 82=Z, 98=Z, 81=Z, 94=Y]
-Player0 has drawn a 9 from bag Y
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 75=X, 82=Z, 98=Z, 81=Z, 94=Y, 9=Y]
-Player0 has discarded a 81 to bag Y
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 75=X, 82=Z, 98=Z, 94=Y, 9=Y]
-Player0 has drawn a 44 from bag X
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 75=X, 82=Z, 98=Z, 94=Y, 9=Y, 44=X]
-Player0 has discarded a 75 to bag X
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 82=Z, 98=Z, 94=Y, 9=Y, 44=X]
-Player0 has drawn a 25 from bag X
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 82=Z, 98=Z, 94=Y, 9=Y, 44=X, 25=X]
-Player0 has discarded a 94 to bag X
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 82=Z, 98=Z, 9=Y, 44=X, 25=X]
-Player0 has drawn a 55 from bag Y
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 82=Z, 98=Z, 9=Y, 44=X, 25=X, 55=Y]
-Player0 has discarded a 82 to bag Y
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 98=Z, 9=Y, 44=X, 25=X, 55=Y]
-Player0 has drawn a 31 from bag X
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 98=Z, 9=Y, 44=X, 25=X, 55=Y, 31=X]
-Player0 has discarded a 9 to bag X
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X]
-Player0 has drawn a 16 from bag Y
-Player0's hand is [43=X, 54=X, 62=Y, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y]
-Player0 has discarded a 62 to bag Y
-Player0's hand is [43=X, 54=X, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y]
-Player0 has drawn a 72 from bag Z
-Player0's hand is [43=X, 54=X, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 72=Z]
-Player0 has discarded a 43 to bag Z
-Player0's hand is [54=X, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 72=Z]
-Player0 has drawn a 38 from bag Z
-Player0's hand is [54=X, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 72=Z, 38=Z]
-Player0 has discarded a 72 to bag Z
-Player0's hand is [54=X, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 38=Z]
+Player0's hand is [84=Y]
+Player0 has drawn a 7 from bag Y
+Player0's hand is [84=Y, 7=Y]
+Player0 has drawn a 17 from bag X
+Player0's hand is [84=Y, 7=Y, 17=X]
+Player0 has drawn a 98 from bag Y
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y]
+Player0 has drawn a 75 from bag Y
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 75=Y]
+Player0 has drawn a 12 from bag X
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 75=Y, 12=X]
 Player0 has drawn a 76 from bag Z
-Player0's hand is [54=X, 88=Z, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 38=Z, 76=Z]
-Player0 has discarded a 88 to bag Z
-Player0's hand is [54=X, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 38=Z, 76=Z]
-Player0 has drawn a 7 from bag Z
-Player0's hand is [54=X, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 38=Z, 76=Z, 7=Z]
-Player0 has discarded a 38 to bag Z
-Player0's hand is [54=X, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 76=Z, 7=Z]
-Player0 has drawn a 39 from bag Y
-Player0's hand is [54=X, 98=Z, 44=X, 25=X, 55=Y, 31=X, 16=Y, 76=Z, 7=Z, 39=Y]
-Player0 has discarded a 98 to bag Y
-Player0's hand is [54=X, 44=X, 25=X, 55=Y, 31=X, 16=Y, 76=Z, 7=Z, 39=Y]
-Player0 has drawn a 72 from bag X
-Player0's hand is [54=X, 44=X, 25=X, 55=Y, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X]
-Player0 has discarded a 44 to bag X
-Player0's hand is [54=X, 25=X, 55=Y, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X]
-Player0 has drawn a 3 from bag X
-Player0's hand is [54=X, 25=X, 55=Y, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X, 3=X]
-Player0 has discarded a 55 to bag X
-Player0's hand is [54=X, 25=X, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X, 3=X]
-Player0 has drawn a 54 from bag Z
-Player0's hand is [54=X, 25=X, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z]
-Player0 has discarded a 25 to bag Z
-Player0's hand is [54=X, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z]
-Player0 has drawn a 69 from bag Z
-Player0's hand is [54=X, 31=X, 16=Y, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z]
-Player0 has discarded a 16 to bag Z
-Player0's hand is [54=X, 31=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z]
-Player0 has drawn a 95 from bag Z
-Player0's hand is [54=X, 31=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z, 95=Z]
-Player0 has discarded a 31 to bag Z
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z, 95=Z]
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 75=Y, 12=X, 76=Z]
+Player0 has drawn a 53 from bag Y
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 75=Y, 12=X, 76=Z, 53=Y]
 Player0 has drawn a 43 from bag Z
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z, 95=Z, 43=Z]
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 75=Y, 12=X, 76=Z, 53=Y, 43=Z]
+Player0 has drawn a 100 from bag Z
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 75=Y, 12=X, 76=Z, 53=Y, 43=Z, 100=Z]
+Player0 has discarded a 75 to bag Z
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 12=X, 76=Z, 53=Y, 43=Z, 100=Z]
+Player0 has drawn a 96 from bag X
+Player0's hand is [84=Y, 7=Y, 17=X, 98=Y, 12=X, 76=Z, 53=Y, 43=Z, 100=Z, 96=X]
+Player0 has discarded a 17 to bag X
+Player0's hand is [84=Y, 7=Y, 98=Y, 12=X, 76=Z, 53=Y, 43=Z, 100=Z, 96=X]
+Player0 has drawn a 47 from bag X
+Player0's hand is [84=Y, 7=Y, 98=Y, 12=X, 76=Z, 53=Y, 43=Z, 100=Z, 96=X, 47=X]
+Player0 has discarded a 43 to bag X
+Player0's hand is [84=Y, 7=Y, 98=Y, 12=X, 76=Z, 53=Y, 100=Z, 96=X, 47=X]
+Player0 has drawn a 81 from bag X
+Player0's hand is [84=Y, 7=Y, 98=Y, 12=X, 76=Z, 53=Y, 100=Z, 96=X, 47=X, 81=X]
+Player0 has discarded a 7 to bag X
+Player0's hand is [84=Y, 98=Y, 12=X, 76=Z, 53=Y, 100=Z, 96=X, 47=X, 81=X]
+Player0 has drawn a 45 from bag Z
+Player0's hand is [84=Y, 98=Y, 12=X, 76=Z, 53=Y, 100=Z, 96=X, 47=X, 81=X, 45=Z]
+Player0 has discarded a 96 to bag Z
+Player0's hand is [84=Y, 98=Y, 12=X, 76=Z, 53=Y, 100=Z, 47=X, 81=X, 45=Z]
+Player0 has drawn a 42 from bag X
+Player0's hand is [84=Y, 98=Y, 12=X, 76=Z, 53=Y, 100=Z, 47=X, 81=X, 45=Z, 42=X]
+Player0 has discarded a 84 to bag X
+Player0's hand is [98=Y, 12=X, 76=Z, 53=Y, 100=Z, 47=X, 81=X, 45=Z, 42=X]
+Player0 has drawn a 4 from bag Z
+Player0's hand is [98=Y, 12=X, 76=Z, 53=Y, 100=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z]
+Player0 has discarded a 100 to bag Z
+Player0's hand is [98=Y, 12=X, 76=Z, 53=Y, 47=X, 81=X, 45=Z, 42=X, 4=Z]
+Player0 has drawn a 14 from bag X
+Player0's hand is [98=Y, 12=X, 76=Z, 53=Y, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X]
+Player0 has discarded a 12 to bag X
+Player0's hand is [98=Y, 76=Z, 53=Y, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X]
+Player0 has drawn a 99 from bag Y
+Player0's hand is [98=Y, 76=Z, 53=Y, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y]
+Player0 has discarded a 53 to bag Y
+Player0's hand is [98=Y, 76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y]
+Player0 has drawn a 92 from bag Y
+Player0's hand is [98=Y, 76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y, 92=Y]
+Player0 has discarded a 98 to bag Y
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y, 92=Y]
+Player0 has drawn a 93 from bag Y
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y, 92=Y, 93=Y]
+Player0 has discarded a 92 to bag Y
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y, 93=Y]
+Player0 has drawn a 15 from bag X
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 14=X, 99=Y, 93=Y, 15=X]
+Player0 has discarded a 14 to bag X
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 93=Y, 15=X]
+Player0 has drawn a 19 from bag Z
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 93=Y, 15=X, 19=Z]
+Player0 has discarded a 93 to bag Z
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 15=X, 19=Z]
+Player0 has drawn a 28 from bag X
+Player0's hand is [76=Z, 47=X, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 15=X, 19=Z, 28=X]
+Player0 has discarded a 47 to bag X
+Player0's hand is [76=Z, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 15=X, 19=Z, 28=X]
+Player0 has drawn a 9 from bag Z
+Player0's hand is [76=Z, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 15=X, 19=Z, 28=X, 9=Z]
+Player0 has discarded a 15 to bag Z
+Player0's hand is [76=Z, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 19=Z, 28=X, 9=Z]
+Player0 has drawn a 16 from bag X
+Player0's hand is [76=Z, 81=X, 45=Z, 42=X, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X]
+Player0 has discarded a 42 to bag X
+Player0's hand is [76=Z, 81=X, 45=Z, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X]
+Player0 has drawn a 75 from bag Z
+Player0's hand is [76=Z, 81=X, 45=Z, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X, 75=Z]
+Player0 has discarded a 76 to bag Z
+Player0's hand is [81=X, 45=Z, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X, 75=Z]
+Player0 has drawn a 83 from bag X
+Player0's hand is [81=X, 45=Z, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X, 75=Z, 83=X]
+Player0 has discarded a 45 to bag X
+Player0's hand is [81=X, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X, 75=Z, 83=X]
+Player0 has drawn a 43 from bag Y
+Player0's hand is [81=X, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 16=X, 75=Z, 83=X, 43=Y]
+Player0 has discarded a 16 to bag Y
+Player0's hand is [81=X, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 75=Z, 83=X, 43=Y]
+Player0 has drawn a 74 from bag Z
+Player0's hand is [81=X, 4=Z, 99=Y, 19=Z, 28=X, 9=Z, 75=Z, 83=X, 43=Y, 74=Z]
+Player0 has discarded a 99 to bag Z
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 9=Z, 75=Z, 83=X, 43=Y, 74=Z]
+Player0 has drawn a 91 from bag Y
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 9=Z, 75=Z, 83=X, 43=Y, 74=Z, 91=Y]
+Player0 has discarded a 43 to bag Y
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 9=Z, 75=Z, 83=X, 74=Z, 91=Y]
+Player0 has drawn a 78 from bag Z
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 9=Z, 75=Z, 83=X, 74=Z, 91=Y, 78=Z]
+Player0 has discarded a 75 to bag Z
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 9=Z, 83=X, 74=Z, 91=Y, 78=Z]
+Player0 has drawn a 43 from bag X
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 9=Z, 83=X, 74=Z, 91=Y, 78=Z, 43=X]
+Player0 has discarded a 9 to bag X
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X]
+Player0 has drawn a 61 from bag X
+Player0's hand is [81=X, 4=Z, 19=Z, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 61=X]
+Player0 has discarded a 19 to bag X
+Player0's hand is [81=X, 4=Z, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 61=X]
+Player0 has drawn a 70 from bag X
+Player0's hand is [81=X, 4=Z, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 61=X, 70=X]
+Player0 has discarded a 61 to bag X
+Player0's hand is [81=X, 4=Z, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 70=X]
+Player0 has drawn a 57 from bag Y
+Player0's hand is [81=X, 4=Z, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 70=X, 57=Y]
+Player0 has discarded a 4 to bag Y
+Player0's hand is [81=X, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 70=X, 57=Y]
+Player0 has drawn a 41 from bag X
+Player0's hand is [81=X, 28=X, 83=X, 74=Z, 91=Y, 78=Z, 43=X, 70=X, 57=Y, 41=X]
+Player0 has discarded a 74 to bag X
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 43=X, 70=X, 57=Y, 41=X]
+Player0 has drawn a 42 from bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 43=X, 70=X, 57=Y, 41=X, 42=Y]
+Player0 has discarded a 42 to bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 43=X, 70=X, 57=Y, 41=X]
+Player0 has drawn a 55 from bag Z
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 43=X, 70=X, 57=Y, 41=X, 55=Z]
 Player0 has discarded a 43 to bag Z
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z, 95=Z]
-Player0 has drawn a 13 from bag Y
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 69=Z, 95=Z, 13=Y]
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 41=X, 55=Z]
+Player0 has drawn a 17 from bag Z
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 41=X, 55=Z, 17=Z]
+Player0 has discarded a 17 to bag Z
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 41=X, 55=Z]
+Player0 has drawn a 34 from bag X
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 41=X, 55=Z, 34=X]
+Player0 has discarded a 41 to bag X
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 55=Z, 34=X]
+Player0 has drawn a 78 from bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 55=Z, 34=X, 78=Y]
+Player0 has discarded a 34 to bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 55=Z, 78=Y]
+Player0 has drawn a 72 from bag Z
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 70=X, 57=Y, 55=Z, 78=Y, 72=Z]
+Player0 has discarded a 70 to bag Z
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 57=Y, 55=Z, 78=Y, 72=Z]
+Player0 has drawn a 20 from bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 78=Z, 57=Y, 55=Z, 78=Y, 72=Z, 20=Y]
+Player0 has discarded a 78 to bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 57=Y, 55=Z, 78=Y, 72=Z, 20=Y]
+Player0 has drawn a 58 from bag X
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 57=Y, 55=Z, 78=Y, 72=Z, 20=Y, 58=X]
+Player0 has discarded a 58 to bag X
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 57=Y, 55=Z, 78=Y, 72=Z, 20=Y]
+Player0 has drawn a 5 from bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 57=Y, 55=Z, 78=Y, 72=Z, 20=Y, 5=Y]
+Player0 has discarded a 78 to bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 57=Y, 55=Z, 72=Z, 20=Y, 5=Y]
+Player0 has drawn a 70 from bag Y
+Player0's hand is [81=X, 28=X, 83=X, 91=Y, 57=Y, 55=Z, 72=Z, 20=Y, 5=Y, 70=Y]
+Player0 has discarded a 83 to bag Y
+Player0's hand is [81=X, 28=X, 91=Y, 57=Y, 55=Z, 72=Z, 20=Y, 5=Y, 70=Y]
+Player0 has drawn a 8 from bag Y
+Player0's hand is [81=X, 28=X, 91=Y, 57=Y, 55=Z, 72=Z, 20=Y, 5=Y, 70=Y, 8=Y]
+Player0 has discarded a 28 to bag Y
+Player0's hand is [81=X, 91=Y, 57=Y, 55=Z, 72=Z, 20=Y, 5=Y, 70=Y, 8=Y]
+Player0 has drawn a 9 from bag Y
+Player0's hand is [81=X, 91=Y, 57=Y, 55=Z, 72=Z, 20=Y, 5=Y, 70=Y, 8=Y, 9=Y]
+Player0 has discarded a 20 to bag Y
+Player0's hand is [81=X, 91=Y, 57=Y, 55=Z, 72=Z, 5=Y, 70=Y, 8=Y, 9=Y]
+Player0 has drawn a 72 from bag Y
+Player0's hand is [81=X, 91=Y, 57=Y, 55=Z, 72=Z, 5=Y, 70=Y, 8=Y, 9=Y, 72=Y]
+Player0 has discarded a 57 to bag Y
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 5=Y, 70=Y, 8=Y, 9=Y, 72=Y]
+Player0 has drawn a 64 from bag Z
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 5=Y, 70=Y, 8=Y, 9=Y, 72=Y, 64=Z]
+Player0 has discarded a 5 to bag Z
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 9=Y, 72=Y, 64=Z]
+Player0 has drawn a 94 from bag X
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 9=Y, 72=Y, 64=Z, 94=X]
+Player0 has discarded a 9 to bag X
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 94=X]
+Player0 has drawn a 52 from bag X
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 94=X, 52=X]
+Player0 has discarded a 94 to bag X
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X]
+Player0 has drawn a 73 from bag Z
+Player0's hand is [81=X, 91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z]
+Player0 has discarded a 81 to bag Z
+Player0's hand is [91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z]
+Player0 has drawn a 23 from bag Z
+Player0's hand is [91=Y, 55=Z, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z, 23=Z]
+Player0 has discarded a 55 to bag Z
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z, 23=Z]
+Player0 has drawn a 36 from bag Y
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z, 23=Z, 36=Y]
+Player0 has discarded a 36 to bag Y
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z, 23=Z]
+Player0 has drawn a 85 from bag Y
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 73=Z, 23=Z, 85=Y]
+Player0 has discarded a 73 to bag Y
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 23=Z, 85=Y]
+Player0 has drawn a 72 from bag X
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 23=Z, 85=Y, 72=X]
+Player0 has discarded a 23 to bag X
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 72=X]
+Player0 has drawn a 25 from bag Y
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 72=X, 25=Y]
+Player0 has discarded a 72 to bag Y
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y]
+Player0 has drawn a 100 from bag X
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 100=X]
+Player0 has discarded a 100 to bag X
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y]
+Player0 has drawn a 69 from bag Z
+Player0's hand is [91=Y, 72=Z, 70=Y, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 69=Z]
+Player0 has discarded a 70 to bag Z
+Player0's hand is [91=Y, 72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 69=Z]
+Player0 has drawn a 64 from bag Y
+Player0's hand is [91=Y, 72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 69=Z, 64=Y]
+Player0 has discarded a 91 to bag Y
+Player0's hand is [72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 69=Z, 64=Y]
+Player0 has drawn a 87 from bag X
+Player0's hand is [72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 69=Z, 64=Y, 87=X]
+Player0 has discarded a 69 to bag X
+Player0's hand is [72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 64=Y, 87=X]
+Player0 has drawn a 11 from bag Y
+Player0's hand is [72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 64=Y, 87=X, 11=Y]
+Player0 has discarded a 87 to bag Y
+Player0's hand is [72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 64=Y, 11=Y]
+Player0 has drawn a 91 from bag X
+Player0's hand is [72=Z, 8=Y, 72=Y, 64=Z, 52=X, 85=Y, 25=Y, 64=Y, 11=Y, 91=X]
+Player0 has discarded a 64 to bag X
+Player0's hand is [72=Z, 8=Y, 72=Y, 52=X, 85=Y, 25=Y, 64=Y, 11=Y, 91=X]
+Player0 has drawn a 90 from bag X
+Player0's hand is [72=Z, 8=Y, 72=Y, 52=X, 85=Y, 25=Y, 64=Y, 11=Y, 91=X, 90=X]
+Player0 has discarded a 72 to bag X
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 25=Y, 64=Y, 11=Y, 91=X, 90=X]
+Player0 has drawn a 55 from bag X
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 25=Y, 64=Y, 11=Y, 91=X, 90=X, 55=X]
+Player0 has discarded a 25 to bag X
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 91=X, 90=X, 55=X]
+Player0 has drawn a 83 from bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 91=X, 90=X, 55=X, 83=Z]
+Player0 has discarded a 83 to bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 91=X, 90=X, 55=X]
+Player0 has drawn a 89 from bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 91=X, 90=X, 55=X, 89=Z]
+Player0 has discarded a 91 to bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 90=X, 55=X, 89=Z]
+Player0 has drawn a 44 from bag Y
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 90=X, 55=X, 89=Z, 44=Y]
+Player0 has discarded a 55 to bag Y
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 90=X, 89=Z, 44=Y]
+Player0 has drawn a 79 from bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 85=Y, 64=Y, 11=Y, 90=X, 89=Z, 44=Y, 79=Z]
+Player0 has discarded a 85 to bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 64=Y, 11=Y, 90=X, 89=Z, 44=Y, 79=Z]
+Player0 has drawn a 20 from bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 64=Y, 11=Y, 90=X, 89=Z, 44=Y, 79=Z, 20=Z]
+Player0 has discarded a 44 to bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 64=Y, 11=Y, 90=X, 89=Z, 79=Z, 20=Z]
+Player0 has drawn a 69 from bag Y
+Player0's hand is [72=Z, 8=Y, 52=X, 64=Y, 11=Y, 90=X, 89=Z, 79=Z, 20=Z, 69=Y]
+Player0 has discarded a 64 to bag Y
+Player0's hand is [72=Z, 8=Y, 52=X, 11=Y, 90=X, 89=Z, 79=Z, 20=Z, 69=Y]
+Player0 has drawn a 21 from bag X
+Player0's hand is [72=Z, 8=Y, 52=X, 11=Y, 90=X, 89=Z, 79=Z, 20=Z, 69=Y, 21=X]
+Player0 has discarded a 90 to bag X
+Player0's hand is [72=Z, 8=Y, 52=X, 11=Y, 89=Z, 79=Z, 20=Z, 69=Y, 21=X]
+Player0 has drawn a 16 from bag Z
+Player0's hand is [72=Z, 8=Y, 52=X, 11=Y, 89=Z, 79=Z, 20=Z, 69=Y, 21=X, 16=Z]
+Player0 has discarded a 52 to bag Z
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 79=Z, 20=Z, 69=Y, 21=X, 16=Z]
+Player0 has drawn a 83 from bag Y
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 79=Z, 20=Z, 69=Y, 21=X, 16=Z, 83=Y]
+Player0 has discarded a 20 to bag Y
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 79=Z, 69=Y, 21=X, 16=Z, 83=Y]
+Player0 has drawn a 49 from bag Z
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 79=Z, 69=Y, 21=X, 16=Z, 83=Y, 49=Z]
+Player0 has discarded a 79 to bag Z
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 69=Y, 21=X, 16=Z, 83=Y, 49=Z]
+Player0 has drawn a 34 from bag Y
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 69=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y]
 Player0 has discarded a 69 to bag Y
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 95=Z, 13=Y]
-Player0 has drawn a 33 from bag Y
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 95=Z, 13=Y, 33=Y]
-Player0 has discarded a 95 to bag Y
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 13=Y, 33=Y]
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 21=X, 16=Z, 83=Y, 49=Z, 34=Y]
+Player0 has drawn a 29 from bag Y
+Player0's hand is [72=Z, 8=Y, 11=Y, 89=Z, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y]
+Player0 has discarded a 72 to bag Y
+Player0's hand is [8=Y, 11=Y, 89=Z, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y]
+Player0 has drawn a 65 from bag Z
+Player0's hand is [8=Y, 11=Y, 89=Z, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z]
+Player0 has discarded a 11 to bag Z
+Player0's hand is [8=Y, 89=Z, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z]
+Player0 has drawn a 1 from bag Y
+Player0's hand is [8=Y, 89=Z, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 1=Y]
+Player0 has discarded a 89 to bag Y
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 1=Y]
+Player0 has drawn a 34 from bag Z
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 1=Y, 34=Z]
+Player0 has discarded a 34 to bag Z
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 1=Y]
+Player0 has drawn a 42 from bag Z
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 1=Y, 42=Z]
+Player0 has discarded a 1 to bag Z
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 42=Z]
+Player0 has drawn a 64 from bag X
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 49=Z, 34=Y, 29=Y, 65=Z, 42=Z, 64=X]
+Player0 has discarded a 49 to bag X
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 34=Y, 29=Y, 65=Z, 42=Z, 64=X]
+Player0 has drawn a 89 from bag X
+Player0's hand is [8=Y, 21=X, 16=Z, 83=Y, 34=Y, 29=Y, 65=Z, 42=Z, 64=X, 89=X]
+Player0 has discarded a 21 to bag X
+Player0's hand is [8=Y, 16=Z, 83=Y, 34=Y, 29=Y, 65=Z, 42=Z, 64=X, 89=X]
+Player0 has drawn a 19 from bag X
+Player0's hand is [8=Y, 16=Z, 83=Y, 34=Y, 29=Y, 65=Z, 42=Z, 64=X, 89=X, 19=X]
+Player0 has discarded a 65 to bag X
+Player0's hand is [8=Y, 16=Z, 83=Y, 34=Y, 29=Y, 42=Z, 64=X, 89=X, 19=X]
+Player0 has drawn a 18 from bag Y
+Player0's hand is [8=Y, 16=Z, 83=Y, 34=Y, 29=Y, 42=Z, 64=X, 89=X, 19=X, 18=Y]
+Player0 has discarded a 29 to bag Y
+Player0's hand is [8=Y, 16=Z, 83=Y, 34=Y, 42=Z, 64=X, 89=X, 19=X, 18=Y]
+Player0 has drawn a 49 from bag Y
+Player0's hand is [8=Y, 16=Z, 83=Y, 34=Y, 42=Z, 64=X, 89=X, 19=X, 18=Y, 49=Y]
+Player0 has discarded a 83 to bag Y
+Player0's hand is [8=Y, 16=Z, 34=Y, 42=Z, 64=X, 89=X, 19=X, 18=Y, 49=Y]
+Player0 has drawn a 37 from bag Y
+Player0's hand is [8=Y, 16=Z, 34=Y, 42=Z, 64=X, 89=X, 19=X, 18=Y, 49=Y, 37=Y]
+Player0 has discarded a 19 to bag Y
+Player0's hand is [8=Y, 16=Z, 34=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y]
+Player0 has drawn a 40 from bag Z
+Player0's hand is [8=Y, 16=Z, 34=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z]
+Player0 has discarded a 34 to bag Z
+Player0's hand is [8=Y, 16=Z, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z]
+Player0 has drawn a 50 from bag Z
+Player0's hand is [8=Y, 16=Z, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z, 50=Z]
+Player0 has discarded a 16 to bag Z
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z, 50=Z]
+Player0 has drawn a 3 from bag Y
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z, 50=Z, 3=Y]
+Player0 has discarded a 3 to bag Y
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z, 50=Z]
+Player0 has drawn a 63 from bag X
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 37=Y, 40=Z, 50=Z, 63=X]
+Player0 has discarded a 37 to bag X
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 40=Z, 50=Z, 63=X]
+Player0 has drawn a 21 from bag Z
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 18=Y, 49=Y, 40=Z, 50=Z, 63=X, 21=Z]
+Player0 has discarded a 18 to bag Z
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 21=Z]
+Player0 has drawn a 21 from bag Y
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 21=Z, 21=Y]
+Player0 has discarded a 21 to bag Y
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 21=Z]
+Player0 has drawn a 37 from bag Z
+Player0's hand is [8=Y, 42=Z, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 21=Z, 37=Z]
+Player0 has discarded a 42 to bag Z
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 21=Z, 37=Z]
+Player0 has drawn a 70 from bag Z
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 21=Z, 37=Z, 70=Z]
+Player0 has discarded a 21 to bag Z
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 37=Z, 70=Z]
+Player0 has drawn a 67 from bag X
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 37=Z, 70=Z, 67=X]
+Player0 has discarded a 37 to bag X
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 70=Z, 67=X]
+Player0 has drawn a 92 from bag X
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 70=Z, 67=X, 92=X]
+Player0 has discarded a 67 to bag X
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 70=Z, 92=X]
+Player0 has drawn a 69 from bag X
+Player0's hand is [8=Y, 64=X, 89=X, 49=Y, 40=Z, 50=Z, 63=X, 70=Z, 92=X, 69=X]
+Player0 has discarded a 49 to bag X
+Player0's hand is [8=Y, 64=X, 89=X, 40=Z, 50=Z, 63=X, 70=Z, 92=X, 69=X]
+Player0 has drawn a 91 from bag Z
+Player0's hand is [8=Y, 64=X, 89=X, 40=Z, 50=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z]
+Player0 has discarded a 50 to bag Z
+Player0's hand is [8=Y, 64=X, 89=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z]
+Player0 has drawn a 8 from bag X
+Player0's hand is [8=Y, 64=X, 89=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X]
+Player0 has discarded a 8 to bag X
+Player0's hand is [64=X, 89=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X]
+Player0 has drawn a 66 from bag X
+Player0's hand is [64=X, 89=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X, 66=X]
+Player0 has discarded a 66 to bag X
+Player0's hand is [64=X, 89=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X]
+Player0 has drawn a 28 from bag Z
+Player0's hand is [64=X, 89=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X, 28=Z]
+Player0 has discarded a 89 to bag Z
+Player0's hand is [64=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X, 28=Z]
+Player0 has drawn a 11 from bag X
+Player0's hand is [64=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 8=X, 28=Z, 11=X]
+Player0 has discarded a 8 to bag X
+Player0's hand is [64=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 28=Z, 11=X]
+Player0 has drawn a 95 from bag X
+Player0's hand is [64=X, 40=Z, 63=X, 70=Z, 92=X, 69=X, 91=Z, 28=Z, 11=X, 95=X]
+Player0 has discarded a 70 to bag X
+Player0's hand is [64=X, 40=Z, 63=X, 92=X, 69=X, 91=Z, 28=Z, 11=X, 95=X]
+Player0 has drawn a 51 from bag Z
+Player0's hand is [64=X, 40=Z, 63=X, 92=X, 69=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z]
+Player0 has discarded a 92 to bag Z
+Player0's hand is [64=X, 40=Z, 63=X, 69=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z]
+Player0 has drawn a 45 from bag X
+Player0's hand is [64=X, 40=Z, 63=X, 69=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X]
+Player0 has discarded a 69 to bag X
+Player0's hand is [64=X, 40=Z, 63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X]
+Player0 has drawn a 27 from bag X
+Player0's hand is [64=X, 40=Z, 63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 27=X]
+Player0 has discarded a 40 to bag X
+Player0's hand is [64=X, 63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 27=X]
+Player0 has drawn a 47 from bag Z
+Player0's hand is [64=X, 63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 27=X, 47=Z]
+Player0 has discarded a 64 to bag Z
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 27=X, 47=Z]
+Player0 has drawn a 40 from bag Y
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 27=X, 47=Z, 40=Y]
+Player0 has discarded a 27 to bag Y
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 47=Z, 40=Y]
+Player0 has drawn a 48 from bag X
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 45=X, 47=Z, 40=Y, 48=X]
+Player0 has discarded a 45 to bag X
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 48=X]
+Player0 has drawn a 24 from bag Z
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 48=X, 24=Z]
+Player0 has discarded a 48 to bag Z
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 24=Z]
+Player0 has drawn a 24 from bag X
+Player0's hand is [63=X, 91=Z, 28=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X]
+Player0 has discarded a 28 to bag X
+Player0's hand is [63=X, 91=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X]
+Player0 has drawn a 46 from bag Z
+Player0's hand is [63=X, 91=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X, 46=Z]
+Player0 has discarded a 63 to bag Z
+Player0's hand is [91=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X, 46=Z]
+Player0 has drawn a 93 from bag X
+Player0's hand is [91=Z, 11=X, 95=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X, 46=Z, 93=X]
+Player0 has discarded a 95 to bag X
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X, 46=Z, 93=X]
+Player0 has drawn a 90 from bag Z
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=Z, 24=X, 46=Z, 93=X, 90=Z]
+Player0 has discarded a 24 to bag Z
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=X, 46=Z, 93=X, 90=Z]
+Player0 has drawn a 8 from bag Z
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=X, 46=Z, 93=X, 90=Z, 8=Z]
+Player0 has discarded a 46 to bag Z
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=X, 93=X, 90=Z, 8=Z]
+Player0 has drawn a 53 from bag X
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=X, 93=X, 90=Z, 8=Z, 53=X]
+Player0 has discarded a 93 to bag X
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=X, 90=Z, 8=Z, 53=X]
+Player0 has drawn a 66 from bag Y
+Player0's hand is [91=Z, 11=X, 51=Z, 47=Z, 40=Y, 24=X, 90=Z, 8=Z, 53=X, 66=Y]
+Player0 has discarded a 91 to bag Y
+Player0's hand is [11=X, 51=Z, 47=Z, 40=Y, 24=X, 90=Z, 8=Z, 53=X, 66=Y]
+Player0 has drawn a 1 from bag X
+Player0's hand is [11=X, 51=Z, 47=Z, 40=Y, 24=X, 90=Z, 8=Z, 53=X, 66=Y, 1=X]
+Player0 has discarded a 90 to bag X
+Player0's hand is [11=X, 51=Z, 47=Z, 40=Y, 24=X, 8=Z, 53=X, 66=Y, 1=X]
+Player0 has drawn a 39 from bag X
+Player0's hand is [11=X, 51=Z, 47=Z, 40=Y, 24=X, 8=Z, 53=X, 66=Y, 1=X, 39=X]
+Player0 has discarded a 51 to bag X
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 8=Z, 53=X, 66=Y, 1=X, 39=X]
+Player0 has drawn a 4 from bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 8=Z, 53=X, 66=Y, 1=X, 39=X, 4=Y]
+Player0 has discarded a 4 to bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 8=Z, 53=X, 66=Y, 1=X, 39=X]
+Player0 has drawn a 39 from bag Z
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 8=Z, 53=X, 66=Y, 1=X, 39=X, 39=Z]
+Player0 has discarded a 53 to bag Z
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 8=Z, 66=Y, 1=X, 39=X, 39=Z]
+Player0 has drawn a 31 from bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 8=Z, 66=Y, 1=X, 39=X, 39=Z, 31=Y]
+Player0 has discarded a 8 to bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 39=Z, 31=Y]
 Player0 has drawn a 97 from bag Y
-Player0's hand is [54=X, 76=Z, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 13=Y, 33=Y, 97=Y]
-Player0 has discarded a 76 to bag Y
-Player0's hand is [54=X, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 13=Y, 33=Y, 97=Y]
-Player0 has drawn a 93 from bag Z
-Player0's hand is [54=X, 7=Z, 39=Y, 72=X, 3=X, 54=Z, 13=Y, 33=Y, 97=Y, 93=Z]
-Player0 has discarded a 72 to bag Z
-Player0's hand is [54=X, 7=Z, 39=Y, 3=X, 54=Z, 13=Y, 33=Y, 97=Y, 93=Z]
-Player0 has drawn a 13 from bag X
-Player0's hand is [54=X, 7=Z, 39=Y, 3=X, 54=Z, 13=Y, 33=Y, 97=Y, 93=Z, 13=X]
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 39=Z, 31=Y, 97=Y]
+Player0 has discarded a 39 to bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 31=Y, 97=Y]
+Player0 has drawn a 48 from bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 31=Y, 97=Y, 48=Y]
+Player0 has discarded a 31 to bag Y
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 48=Y]
+Player0 has drawn a 6 from bag X
+Player0's hand is [11=X, 47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 48=Y, 6=X]
+Player0 has discarded a 11 to bag X
+Player0's hand is [47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 48=Y, 6=X]
+Player0 has drawn a 56 from bag Z
+Player0's hand is [47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 48=Y, 6=X, 56=Z]
+Player0 has discarded a 48 to bag Z
+Player0's hand is [47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 6=X, 56=Z]
+Player0 has drawn a 67 from bag Z
+Player0's hand is [47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 6=X, 56=Z, 67=Z]
+Player0 has discarded a 6 to bag Z
+Player0's hand is [47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 56=Z, 67=Z]
+Player0 has drawn a 36 from bag X
+Player0's hand is [47=Z, 40=Y, 24=X, 66=Y, 1=X, 39=X, 97=Y, 56=Z, 67=Z, 36=X]
+Player0 has discarded a 24 to bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 97=Y, 56=Z, 67=Z, 36=X]
+Player0 has drawn a 75 from bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 97=Y, 56=Z, 67=Z, 36=X, 75=X]
+Player0 has discarded a 56 to bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 97=Y, 67=Z, 36=X, 75=X]
+Player0 has drawn a 4 from bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 97=Y, 67=Z, 36=X, 75=X, 4=X]
+Player0 has discarded a 97 to bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 36=X, 75=X, 4=X]
+Player0 has drawn a 54 from bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 36=X, 75=X, 4=X, 54=X]
+Player0 has discarded a 4 to bag X
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 36=X, 75=X, 54=X]
+Player0 has drawn a 25 from bag Z
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 36=X, 75=X, 54=X, 25=Z]
+Player0 has discarded a 36 to bag Z
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 75=X, 54=X, 25=Z]
+Player0 has drawn a 17 from bag Y
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 75=X, 54=X, 25=Z, 17=Y]
+Player0 has discarded a 75 to bag Y
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 54=X, 25=Z, 17=Y]
+Player0 has drawn a 39 from bag Y
+Player0's hand is [47=Z, 40=Y, 66=Y, 1=X, 39=X, 67=Z, 54=X, 25=Z, 17=Y, 39=Y]
+Player0 has discarded a 1 to bag Y
+Player0's hand is [47=Z, 40=Y, 66=Y, 39=X, 67=Z, 54=X, 25=Z, 17=Y, 39=Y]
+Player0 has drawn a 46 from bag Y
+Player0's hand is [47=Z, 40=Y, 66=Y, 39=X, 67=Z, 54=X, 25=Z, 17=Y, 39=Y, 46=Y]
+Player0 has discarded a 39 to bag Y
+Player0's hand is [47=Z, 40=Y, 66=Y, 67=Z, 54=X, 25=Z, 17=Y, 39=Y, 46=Y]
+Player0 has drawn a 77 from bag Z
+Player0's hand is [47=Z, 40=Y, 66=Y, 67=Z, 54=X, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z]
+Player0 has discarded a 66 to bag Z
+Player0's hand is [47=Z, 40=Y, 67=Z, 54=X, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z]
+Player0 has drawn a 26 from bag X
+Player0's hand is [47=Z, 40=Y, 67=Z, 54=X, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X]
 Player0 has discarded a 54 to bag X
-Player0's hand is [7=Z, 39=Y, 3=X, 54=Z, 13=Y, 33=Y, 97=Y, 93=Z, 13=X]
-Player0 has drawn a 82 from bag Y
-Player0's hand is [7=Z, 39=Y, 3=X, 54=Z, 13=Y, 33=Y, 97=Y, 93=Z, 13=X, 82=Y]
+Player0's hand is [47=Z, 40=Y, 67=Z, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X]
+Player0 has drawn a 32 from bag Z
+Player0's hand is [47=Z, 40=Y, 67=Z, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 32=Z]
+Player0 has discarded a 47 to bag Z
+Player0's hand is [40=Y, 67=Z, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 32=Z]
+Player0 has drawn a 11 from bag Z
+Player0's hand is [40=Y, 67=Z, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 32=Z, 11=Z]
+Player0 has discarded a 67 to bag Z
+Player0's hand is [40=Y, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 32=Z, 11=Z]
+Player0 has drawn a 60 from bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 32=Z, 11=Z, 60=X]
+Player0 has discarded a 32 to bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 11=Z, 60=X]
+Player0 has drawn a 25 from bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 11=Z, 60=X, 25=X]
+Player0 has discarded a 60 to bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 11=Z, 25=X]
+Player0 has drawn a 98 from bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 39=Y, 46=Y, 77=Z, 26=X, 11=Z, 25=X, 98=X]
+Player0 has discarded a 39 to bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 77=Z, 26=X, 11=Z, 25=X, 98=X]
+Player0 has drawn a 90 from bag Y
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 77=Z, 26=X, 11=Z, 25=X, 98=X, 90=Y]
+Player0 has discarded a 11 to bag Y
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 77=Z, 26=X, 25=X, 98=X, 90=Y]
+Player0 has drawn a 80 from bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 77=Z, 26=X, 25=X, 98=X, 90=Y, 80=X]
+Player0 has discarded a 77 to bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 26=X, 25=X, 98=X, 90=Y, 80=X]
+Player0 has drawn a 7 from bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 26=X, 25=X, 98=X, 90=Y, 80=X, 7=X]
+Player0 has discarded a 7 to bag X
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 26=X, 25=X, 98=X, 90=Y, 80=X]
+Player0 has drawn a 84 from bag Z
+Player0's hand is [40=Y, 25=Z, 17=Y, 46=Y, 26=X, 25=X, 98=X, 90=Y, 80=X, 84=Z]
+Player0 has discarded a 17 to bag Z
+Player0's hand is [40=Y, 25=Z, 46=Y, 26=X, 25=X, 98=X, 90=Y, 80=X, 84=Z]
+Player0 has drawn a 12 from bag Y
+Player0's hand is [40=Y, 25=Z, 46=Y, 26=X, 25=X, 98=X, 90=Y, 80=X, 84=Z, 12=Y]
+Player0 has discarded a 26 to bag Y
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 80=X, 84=Z, 12=Y]
+Player0 has drawn a 52 from bag Y
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 80=X, 84=Z, 12=Y, 52=Y]
+Player0 has discarded a 12 to bag Y
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 80=X, 84=Z, 52=Y]
+Player0 has drawn a 35 from bag X
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 80=X, 84=Z, 52=Y, 35=X]
+Player0 has discarded a 80 to bag X
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 84=Z, 52=Y, 35=X]
+Player0 has drawn a 74 from bag Y
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 84=Z, 52=Y, 35=X, 74=Y]
+Player0 has discarded a 35 to bag Y
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 84=Z, 52=Y, 74=Y]
+Player0 has drawn a 73 from bag X
+Player0's hand is [40=Y, 25=Z, 46=Y, 25=X, 98=X, 90=Y, 84=Z, 52=Y, 74=Y, 73=X]
+Player0 has discarded a 40 to bag X
+Player0's hand is [25=Z, 46=Y, 25=X, 98=X, 90=Y, 84=Z, 52=Y, 74=Y, 73=X]
+Player0 has drawn a 63 from bag Y
+Player0's hand is [25=Z, 46=Y, 25=X, 98=X, 90=Y, 84=Z, 52=Y, 74=Y, 73=X, 63=Y]
+Player0 has discarded a 90 to bag Y
+Player0's hand is [25=Z, 46=Y, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y]
+Player0 has drawn a 14 from bag Z
+Player0's hand is [25=Z, 46=Y, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 14=Z]
+Player0 has discarded a 46 to bag Z
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 14=Z]
+Player0 has drawn a 71 from bag X
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 14=Z, 71=X]
+Player0 has discarded a 14 to bag X
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 71=X]
+Player0 has drawn a 55 from bag Y
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 71=X, 55=Y]
+Player0 has discarded a 71 to bag Y
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 55=Y]
+Player0 has drawn a 33 from bag Z
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 52=Y, 74=Y, 73=X, 63=Y, 55=Y, 33=Z]
+Player0 has discarded a 52 to bag Z
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 74=Y, 73=X, 63=Y, 55=Y, 33=Z]
+Player0 has drawn a 60 from bag Z
+Player0's hand is [25=Z, 25=X, 98=X, 84=Z, 74=Y, 73=X, 63=Y, 55=Y, 33=Z, 60=Z]
+Player0 has discarded a 25 to bag Z
+Player0's hand is [25=Z, 98=X, 84=Z, 74=Y, 73=X, 63=Y, 55=Y, 33=Z, 60=Z]
+Player0 has drawn a 94 from bag Y
+Player0's hand is [25=Z, 98=X, 84=Z, 74=Y, 73=X, 63=Y, 55=Y, 33=Z, 60=Z, 94=Y]
+Player0 has discarded a 25 to bag Y
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 63=Y, 55=Y, 33=Z, 60=Z, 94=Y]
+Player0 has drawn a 7 from bag Z
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 63=Y, 55=Y, 33=Z, 60=Z, 94=Y, 7=Z]
+Player0 has discarded a 55 to bag Z
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 63=Y, 33=Z, 60=Z, 94=Y, 7=Z]
+Player0 has drawn a 38 from bag X
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 63=Y, 33=Z, 60=Z, 94=Y, 7=Z, 38=X]
+Player0 has discarded a 63 to bag X
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 33=Z, 60=Z, 94=Y, 7=Z, 38=X]
+Player0 has drawn a 22 from bag X
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 33=Z, 60=Z, 94=Y, 7=Z, 38=X, 22=X]
+Player0 has discarded a 33 to bag X
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 60=Z, 94=Y, 7=Z, 38=X, 22=X]
+Player0 has drawn a 86 from bag Z
+Player0's hand is [98=X, 84=Z, 74=Y, 73=X, 60=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z]
+Player0 has discarded a 73 to bag Z
+Player0's hand is [98=X, 84=Z, 74=Y, 60=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z]
+Player0 has drawn a 80 from bag Y
+Player0's hand is [98=X, 84=Z, 74=Y, 60=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y]
+Player0 has discarded a 74 to bag Y
+Player0's hand is [98=X, 84=Z, 60=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y]
+Player0 has drawn a 27 from bag Y
+Player0's hand is [98=X, 84=Z, 60=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y, 27=Y]
+Player0 has discarded a 60 to bag Y
+Player0's hand is [98=X, 84=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y, 27=Y]
+Player0 has drawn a 88 from bag Z
+Player0's hand is [98=X, 84=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y, 27=Y, 88=Z]
+Player0 has discarded a 27 to bag Z
+Player0's hand is [98=X, 84=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y, 88=Z]
+Player0 has drawn a 13 from bag Y
+Player0's hand is [98=X, 84=Z, 94=Y, 7=Z, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y]
+Player0 has discarded a 7 to bag Y
+Player0's hand is [98=X, 84=Z, 94=Y, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y]
+Player0 has drawn a 87 from bag Y
+Player0's hand is [98=X, 84=Z, 94=Y, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y, 87=Y]
+Player0 has discarded a 94 to bag Y
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y, 87=Y]
+Player0 has drawn a 85 from bag Z
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y, 87=Y, 85=Z]
+Player0 has discarded a 87 to bag Z
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y, 85=Z]
+Player0 has drawn a 33 from bag X
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 80=Y, 88=Z, 13=Y, 85=Z, 33=X]
+Player0 has discarded a 80 to bag X
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 88=Z, 13=Y, 85=Z, 33=X]
+Player0 has drawn a 62 from bag Z
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 88=Z, 13=Y, 85=Z, 33=X, 62=Z]
+Player0 has discarded a 85 to bag Z
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 88=Z, 13=Y, 33=X, 62=Z]
+Player0 has drawn a 48 from bag Z
+Player0's hand is [98=X, 84=Z, 38=X, 22=X, 86=Z, 88=Z, 13=Y, 33=X, 62=Z, 48=Z]
+Player0 has discarded a 38 to bag Z
+Player0's hand is [98=X, 84=Z, 22=X, 86=Z, 88=Z, 13=Y, 33=X, 62=Z, 48=Z]
+Player0 has drawn a 68 from bag Z
+Player0's hand is [98=X, 84=Z, 22=X, 86=Z, 88=Z, 13=Y, 33=X, 62=Z, 48=Z, 68=Z]
+Player0 has discarded a 98 to bag Z
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 33=X, 62=Z, 48=Z, 68=Z]
+Player0 has drawn a 59 from bag Z
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 33=X, 62=Z, 48=Z, 68=Z, 59=Z]
+Player0 has discarded a 33 to bag Z
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 48=Z, 68=Z, 59=Z]
+Player0 has drawn a 24 from bag Y
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 48=Z, 68=Z, 59=Z, 24=Y]
+Player0 has discarded a 48 to bag Y
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 68=Z, 59=Z, 24=Y]
+Player0 has drawn a 28 from bag Y
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 68=Z, 59=Z, 24=Y, 28=Y]
+Player0 has discarded a 24 to bag Y
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 68=Z, 59=Z, 28=Y]
+Player0 has drawn a 96 from bag Z
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 68=Z, 59=Z, 28=Y, 96=Z]
+Player0 has discarded a 68 to bag Z
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 59=Z, 28=Y, 96=Z]
+Player0 has drawn a 57 from bag Z
+Player0's hand is [84=Z, 22=X, 86=Z, 88=Z, 13=Y, 62=Z, 59=Z, 28=Y, 96=Z, 57=Z]
+Player0 has discarded a 86 to bag Z
+Player0's hand is [84=Z, 22=X, 88=Z, 13=Y, 62=Z, 59=Z, 28=Y, 96=Z, 57=Z]
+Player0 has drawn a 30 from bag Y
+Player0's hand is [84=Z, 22=X, 88=Z, 13=Y, 62=Z, 59=Z, 28=Y, 96=Z, 57=Z, 30=Y]
+Player0 has discarded a 96 to bag Y
+Player0's hand is [84=Z, 22=X, 88=Z, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y]
+Player0 has drawn a 73 from bag Y
+Player0's hand is [84=Z, 22=X, 88=Z, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 73=Y]
+Player0 has discarded a 88 to bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 73=Y]
+Player0 has drawn a 12 from bag Z
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 73=Y, 12=Z]
+Player0 has discarded a 12 to bag Z
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 73=Y]
+Player0 has drawn a 59 from bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 73=Y, 59=Y]
+Player0 has discarded a 73 to bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 59=Y]
+Player0 has drawn a 60 from bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 57=Z, 30=Y, 59=Y, 60=Y]
+Player0 has discarded a 57 to bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 30=Y, 59=Y, 60=Y]
+Player0 has drawn a 45 from bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 30=Y, 59=Y, 60=Y, 45=Y]
+Player0 has discarded a 59 to bag Y
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y]
+Player0 has drawn a 88 from bag X
+Player0's hand is [84=Z, 22=X, 13=Y, 62=Z, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 88=X]
+Player0 has discarded a 62 to bag X
+Player0's hand is [84=Z, 22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 88=X]
+Player0 has drawn a 76 from bag X
+Player0's hand is [84=Z, 22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 88=X, 76=X]
+Player0 has discarded a 84 to bag X
+Player0's hand is [22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 88=X, 76=X]
+Player0 has drawn a 67 from bag Y
+Player0's hand is [22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 88=X, 76=X, 67=Y]
+Player0 has discarded a 88 to bag Y
+Player0's hand is [22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y]
+Player0 has drawn a 29 from bag X
+Player0's hand is [22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y, 29=X]
+Player0 has discarded a 29 to bag X
+Player0's hand is [22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y]
+Player0 has drawn a 36 from bag Z
+Player0's hand is [22=X, 13=Y, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y, 36=Z]
+Player0 has discarded a 13 to bag Z
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y, 36=Z]
+Player0 has drawn a 81 from bag Y
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y, 36=Z, 81=Y]
+Player0 has discarded a 81 to bag Y
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y, 36=Z]
+Player0 has drawn a 65 from bag X
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 60=Y, 45=Y, 76=X, 67=Y, 36=Z, 65=X]
+Player0 has discarded a 60 to bag X
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 45=Y, 76=X, 67=Y, 36=Z, 65=X]
+Player0 has drawn a 3 from bag X
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 45=Y, 76=X, 67=Y, 36=Z, 65=X, 3=X]
+Player0 has discarded a 76 to bag X
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 45=Y, 67=Y, 36=Z, 65=X, 3=X]
+Player0 has drawn a 30 from bag Z
+Player0's hand is [22=X, 59=Z, 28=Y, 30=Y, 45=Y, 67=Y, 36=Z, 65=X, 3=X, 30=Z]
+Player0 has discarded a 30 to bag Z
+Player0's hand is [22=X, 59=Z, 28=Y, 45=Y, 67=Y, 36=Z, 65=X, 3=X, 30=Z]
+Player0 has drawn a 86 from bag Y
+Player0's hand is [22=X, 59=Z, 28=Y, 45=Y, 67=Y, 36=Z, 65=X, 3=X, 30=Z, 86=Y]
+Player0 has discarded a 59 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 65=X, 3=X, 30=Z, 86=Y]
+Player0 has drawn a 18 from bag X
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 65=X, 3=X, 30=Z, 86=Y, 18=X]
+Player0 has discarded a 65 to bag X
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 3=X, 30=Z, 86=Y, 18=X]
+Player0 has drawn a 77 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 3=X, 30=Z, 86=Y, 18=X, 77=Y]
+Player0 has discarded a 86 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 3=X, 30=Z, 18=X, 77=Y]
+Player0 has drawn a 56 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 3=X, 30=Z, 18=X, 77=Y, 56=Y]
+Player0 has discarded a 18 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 3=X, 30=Z, 77=Y, 56=Y]
+Player0 has drawn a 58 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 67=Y, 36=Z, 3=X, 30=Z, 77=Y, 56=Y, 58=Y]
+Player0 has discarded a 67 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 3=X, 30=Z, 77=Y, 56=Y, 58=Y]
+Player0 has drawn a 15 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 3=X, 30=Z, 77=Y, 56=Y, 58=Y, 15=Y]
+Player0 has discarded a 58 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 3=X, 30=Z, 77=Y, 56=Y, 15=Y]
+Player0 has drawn a 6 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 3=X, 30=Z, 77=Y, 56=Y, 15=Y, 6=Y]
+Player0 has discarded a 3 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 30=Z, 77=Y, 56=Y, 15=Y, 6=Y]
+Player0 has drawn a 54 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 30=Z, 77=Y, 56=Y, 15=Y, 6=Y, 54=Y]
+Player0 has discarded a 77 to bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 15=Y, 6=Y, 54=Y]
+Player0 has drawn a 50 from bag Y
+Player0's hand is [22=X, 28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 15=Y, 6=Y, 54=Y, 50=Y]
+Player0 has discarded a 22 to bag Y
+Player0's hand is [28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 15=Y, 6=Y, 54=Y, 50=Y]
+Player0 has drawn a 1 from bag Z
+Player0's hand is [28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 15=Y, 6=Y, 54=Y, 50=Y, 1=Z]
+Player0 has discarded a 54 to bag Z
+Player0's hand is [28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 15=Y, 6=Y, 50=Y, 1=Z]
+Player0 has drawn a 68 from bag X
+Player0's hand is [28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 15=Y, 6=Y, 50=Y, 1=Z, 68=X]
+Player0 has discarded a 15 to bag X
+Player0's hand is [28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 6=Y, 50=Y, 1=Z, 68=X]
+Player0 has drawn a 76 from bag Y
+Player0's hand is [28=Y, 45=Y, 36=Z, 30=Z, 56=Y, 6=Y, 50=Y, 1=Z, 68=X, 76=Y]
+Player0 has discarded a 36 to bag Y
+Player0's hand is [28=Y, 45=Y, 30=Z, 56=Y, 6=Y, 50=Y, 1=Z, 68=X, 76=Y]
+Player0 has drawn a 40 from bag X
+Player0's hand is [28=Y, 45=Y, 30=Z, 56=Y, 6=Y, 50=Y, 1=Z, 68=X, 76=Y, 40=X]
+Player0 has discarded a 45 to bag X
+Player0's hand is [28=Y, 30=Z, 56=Y, 6=Y, 50=Y, 1=Z, 68=X, 76=Y, 40=X]
+Player0 has drawn a 31 from bag Z
+Player0's hand is [28=Y, 30=Z, 56=Y, 6=Y, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=Z]
+Player0 has discarded a 6 to bag Z
+Player0's hand is [28=Y, 30=Z, 56=Y, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=Z]
+Player0 has drawn a 31 from bag X
+Player0's hand is [28=Y, 30=Z, 56=Y, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=Z, 31=X]
+Player0 has discarded a 56 to bag X
+Player0's hand is [28=Y, 30=Z, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=Z, 31=X]
+Player0 has drawn a 2 from bag X
+Player0's hand is [28=Y, 30=Z, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=Z, 31=X, 2=X]
+Player0 has discarded a 31 to bag X
+Player0's hand is [28=Y, 30=Z, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=X, 2=X]
+Player0 has drawn a 82 from bag Z
+Player0's hand is [28=Y, 30=Z, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=X, 2=X, 82=Z]
+Player0 has discarded a 2 to bag Z
+Player0's hand is [28=Y, 30=Z, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=X, 82=Z]
+Player0 has drawn a 32 from bag X
+Player0's hand is [28=Y, 30=Z, 50=Y, 1=Z, 68=X, 76=Y, 40=X, 31=X, 82=Z, 32=X]
+Player0 has discarded a 50 to bag X
+Player0's hand is [28=Y, 30=Z, 1=Z, 68=X, 76=Y, 40=X, 31=X, 82=Z, 32=X]
+Player0 has drawn a 100 from bag Y
+Player0's hand is [28=Y, 30=Z, 1=Z, 68=X, 76=Y, 40=X, 31=X, 82=Z, 32=X, 100=Y]
 Player0 has discarded a 82 to bag Y
-Player0's hand is [7=Z, 39=Y, 3=X, 54=Z, 13=Y, 33=Y, 97=Y, 93=Z, 13=X]
+Player0's hand is [28=Y, 30=Z, 1=Z, 68=X, 76=Y, 40=X, 31=X, 32=X, 100=Y]
+Player0 has drawn a 2 from bag Z
+Player0's hand is [28=Y, 30=Z, 1=Z, 68=X, 76=Y, 40=X, 31=X, 32=X, 100=Y, 2=Z]
+Player0 has discarded a 1 to bag Z
+Player0's hand is [28=Y, 30=Z, 68=X, 76=Y, 40=X, 31=X, 32=X, 100=Y, 2=Z]
+Player0 has drawn a 92 from bag Z
+Player0's hand is [28=Y, 30=Z, 68=X, 76=Y, 40=X, 31=X, 32=X, 100=Y, 2=Z, 92=Z]
+Player0 has discarded a 40 to bag Z
+Player0's hand is [28=Y, 30=Z, 68=X, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z]
+Player0 has drawn a 71 from bag Y
+Player0's hand is [28=Y, 30=Z, 68=X, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z, 71=Y]
+Player0 has discarded a 71 to bag Y
+Player0's hand is [28=Y, 30=Z, 68=X, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z]
+Player0 has drawn a 98 from bag Z
+Player0's hand is [28=Y, 30=Z, 68=X, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z, 98=Z]
+Player0 has discarded a 68 to bag Z
+Player0's hand is [28=Y, 30=Z, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z, 98=Z]
+Player0 has drawn a 56 from bag X
+Player0's hand is [28=Y, 30=Z, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z, 98=Z, 56=X]
+Player0 has discarded a 30 to bag X
+Player0's hand is [28=Y, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z, 98=Z, 56=X]
+Player0 has drawn a 82 from bag X
+Player0's hand is [28=Y, 76=Y, 31=X, 32=X, 100=Y, 2=Z, 92=Z, 98=Z, 56=X, 82=X]
+Player0 has discarded a 31 to bag X
+Player0's hand is [28=Y, 76=Y, 32=X, 100=Y, 2=Z, 92=Z, 98=Z, 56=X, 82=X]
+Player0 has drawn a 81 from bag Z
+Player0's hand is [28=Y, 76=Y, 32=X, 100=Y, 2=Z, 92=Z, 98=Z, 56=X, 82=X, 81=Z]
+Player0 has discarded a 92 to bag Z
+Player0's hand is [28=Y, 76=Y, 32=X, 100=Y, 2=Z, 98=Z, 56=X, 82=X, 81=Z]
+Player0 has drawn a 94 from bag Z
+Player0's hand is [28=Y, 76=Y, 32=X, 100=Y, 2=Z, 98=Z, 56=X, 82=X, 81=Z, 94=Z]
+Player0 has discarded a 98 to bag Z
+Player0's hand is [28=Y, 76=Y, 32=X, 100=Y, 2=Z, 56=X, 82=X, 81=Z, 94=Z]
+Player0 has drawn a 35 from bag Y
+Player0's hand is [28=Y, 76=Y, 32=X, 100=Y, 2=Z, 56=X, 82=X, 81=Z, 94=Z, 35=Y]
+Player0 has discarded a 76 to bag Y
+Player0's hand is [28=Y, 32=X, 100=Y, 2=Z, 56=X, 82=X, 81=Z, 94=Z, 35=Y]
+Player0 has drawn a 23 from bag Y
+Player0's hand is [28=Y, 32=X, 100=Y, 2=Z, 56=X, 82=X, 81=Z, 94=Z, 35=Y, 23=Y]
+Player0 has discarded a 56 to bag Y
+Player0's hand is [28=Y, 32=X, 100=Y, 2=Z, 82=X, 81=Z, 94=Z, 35=Y, 23=Y]
+Player0 has drawn a 86 from bag X
+Player0's hand is [28=Y, 32=X, 100=Y, 2=Z, 82=X, 81=Z, 94=Z, 35=Y, 23=Y, 86=X]
+Player0 has discarded a 2 to bag X
+Player0's hand is [28=Y, 32=X, 100=Y, 82=X, 81=Z, 94=Z, 35=Y, 23=Y, 86=X]
+Player0 has drawn a 32 from bag Y
+Player0's hand is [28=Y, 32=X, 100=Y, 82=X, 81=Z, 94=Z, 35=Y, 23=Y, 86=X, 32=Y]
+Player0 has discarded a 82 to bag Y
+Player0's hand is [28=Y, 32=X, 100=Y, 81=Z, 94=Z, 35=Y, 23=Y, 86=X, 32=Y]
+Player0 has drawn a 27 from bag Z
+Player0's hand is [28=Y, 32=X, 100=Y, 81=Z, 94=Z, 35=Y, 23=Y, 86=X, 32=Y, 27=Z]
+Player0 has discarded a 86 to bag Z
+Player0's hand is [28=Y, 32=X, 100=Y, 81=Z, 94=Z, 35=Y, 23=Y, 32=Y, 27=Z]
+Player0 has drawn a 30 from bag X
+Player0's hand is [28=Y, 32=X, 100=Y, 81=Z, 94=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X]
+Player0 has discarded a 94 to bag X
+Player0's hand is [28=Y, 32=X, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X]
+Player0 has drawn a 13 from bag X
+Player0's hand is [28=Y, 32=X, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X, 13=X]
+Player0 has discarded a 32 to bag X
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X, 13=X]
+Player0 has drawn a 13 from bag Z
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X, 13=X, 13=Z]
+Player0 has discarded a 13 to bag Z
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X, 13=Z]
+Player0 has drawn a 58 from bag Z
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 27=Z, 30=X, 13=Z, 58=Z]
+Player0 has discarded a 27 to bag Z
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 30=X, 13=Z, 58=Z]
+Player0 has drawn a 59 from bag X
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 30=X, 13=Z, 58=Z, 59=X]
+Player0 has discarded a 13 to bag X
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 30=X, 58=Z, 59=X]
+Player0 has drawn a 97 from bag X
+Player0's hand is [28=Y, 100=Y, 81=Z, 35=Y, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X]
+Player0 has discarded a 35 to bag X
+Player0's hand is [28=Y, 100=Y, 81=Z, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X]
+Player0 has drawn a 79 from bag X
+Player0's hand is [28=Y, 100=Y, 81=Z, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X]
+Player0 has discarded a 81 to bag X
+Player0's hand is [28=Y, 100=Y, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X]
+Player0 has drawn a 49 from bag X
+Player0's hand is [28=Y, 100=Y, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X]
+Player0 has discarded a 100 to bag X
+Player0's hand is [28=Y, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X]
+Player0 has drawn a 9 from bag X
+Player0's hand is [28=Y, 23=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X]
+Player0 has discarded a 23 to bag X
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X]
+Player0 has drawn a 10 from bag X
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X, 10=X]
+Player0 has discarded a 10 to bag X
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X]
+Player0 has drawn a 66 from bag Z
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X, 66=Z]
+Player0 has discarded a 66 to bag Z
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X]
+Player0 has drawn a 23 from bag X
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 49=X, 9=X, 23=X]
+Player0 has discarded a 49 to bag X
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 9=X, 23=X]
+Player0 has drawn a 16 from bag Y
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 97=X, 79=X, 9=X, 23=X, 16=Y]
+Player0 has discarded a 97 to bag Y
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 79=X, 9=X, 23=X, 16=Y]
+Player0 has drawn a 38 from bag Z
+Player0's hand is [28=Y, 32=Y, 30=X, 58=Z, 59=X, 79=X, 9=X, 23=X, 16=Y, 38=Z]
+Player0 has discarded a 30 to bag Z
+Player0's hand is [28=Y, 32=Y, 58=Z, 59=X, 79=X, 9=X, 23=X, 16=Y, 38=Z]
+Player0 has drawn a 68 from bag Y
+Player0's hand is [28=Y, 32=Y, 58=Z, 59=X, 79=X, 9=X, 23=X, 16=Y, 38=Z, 68=Y]
+Player0 has discarded a 23 to bag Y
+Player0's hand is [28=Y, 32=Y, 58=Z, 59=X, 79=X, 9=X, 16=Y, 38=Z, 68=Y]
+Player0 has drawn a 95 from bag Z
+Player0's hand is [28=Y, 32=Y, 58=Z, 59=X, 79=X, 9=X, 16=Y, 38=Z, 68=Y, 95=Z]
+Player0 has discarded a 9 to bag Z
+Player0's hand is [28=Y, 32=Y, 58=Z, 59=X, 79=X, 16=Y, 38=Z, 68=Y, 95=Z]
+Player0 has drawn a 26 from bag Y
+Player0's hand is [28=Y, 32=Y, 58=Z, 59=X, 79=X, 16=Y, 38=Z, 68=Y, 95=Z, 26=Y]
+Player0 has discarded a 59 to bag Y
+Player0's hand is [28=Y, 32=Y, 58=Z, 79=X, 16=Y, 38=Z, 68=Y, 95=Z, 26=Y]
+Player0 has drawn a 3 from bag Z
+Player0's hand is [28=Y, 32=Y, 58=Z, 79=X, 16=Y, 38=Z, 68=Y, 95=Z, 26=Y, 3=Z]
+Player0 has discarded a 32 to bag Z
+Player0's hand is [28=Y, 58=Z, 79=X, 16=Y, 38=Z, 68=Y, 95=Z, 26=Y, 3=Z]
+Player0 has drawn a 99 from bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 16=Y, 38=Z, 68=Y, 95=Z, 26=Y, 3=Z, 99=X]
+Player0 has discarded a 38 to bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 16=Y, 68=Y, 95=Z, 26=Y, 3=Z, 99=X]
+Player0 has drawn a 20 from bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 16=Y, 68=Y, 95=Z, 26=Y, 3=Z, 99=X, 20=X]
+Player0 has discarded a 20 to bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 16=Y, 68=Y, 95=Z, 26=Y, 3=Z, 99=X]
+Player0 has drawn a 57 from bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 16=Y, 68=Y, 95=Z, 26=Y, 3=Z, 99=X, 57=X]
+Player0 has discarded a 16 to bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 3=Z, 99=X, 57=X]
+Player0 has drawn a 53 from bag Z
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 3=Z, 99=X, 57=X, 53=Z]
+Player0 has discarded a 99 to bag Z
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 3=Z, 57=X, 53=Z]
+Player0 has drawn a 62 from bag Y
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 3=Z, 57=X, 53=Z, 62=Y]
+Player0 has discarded a 57 to bag Y
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 3=Z, 53=Z, 62=Y]
+Player0 has drawn a 89 from bag Y
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 3=Z, 53=Z, 62=Y, 89=Y]
+Player0 has discarded a 3 to bag Y
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 53=Z, 62=Y, 89=Y]
+Player0 has drawn a 51 from bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 68=Y, 95=Z, 26=Y, 53=Z, 62=Y, 89=Y, 51=X]
+Player0 has discarded a 68 to bag X
+Player0's hand is [28=Y, 58=Z, 79=X, 95=Z, 26=Y, 53=Z, 62=Y, 89=Y, 51=X]
+Player0 has drawn a 97 from bag Z
+Player0's hand is [28=Y, 58=Z, 79=X, 95=Z, 26=Y, 53=Z, 62=Y, 89=Y, 51=X, 97=Z]
+Player0 has discarded a 79 to bag Z
+Player0's hand is [28=Y, 58=Z, 95=Z, 26=Y, 53=Z, 62=Y, 89=Y, 51=X, 97=Z]
+Player0 has drawn a 46 from bag X
+Player0's hand is [28=Y, 58=Z, 95=Z, 26=Y, 53=Z, 62=Y, 89=Y, 51=X, 97=Z, 46=X]
+Player0 has discarded a 26 to bag X
+Player0's hand is [28=Y, 58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 97=Z, 46=X]
+Player0 has drawn a 84 from bag X
+Player0's hand is [28=Y, 58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 97=Z, 46=X, 84=X]
+Player0 has discarded a 28 to bag X
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 97=Z, 46=X, 84=X]
+Player0 has drawn a 37 from bag X
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 97=Z, 46=X, 84=X, 37=X]
+Player0 has discarded a 97 to bag X
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 84=X, 37=X]
+Player0 has drawn a 47 from bag Y
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 84=X, 37=X, 47=Y]
+Player0 has discarded a 47 to bag Y
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 84=X, 37=X]
+Player0 has drawn a 26 from bag Z
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 84=X, 37=X, 26=Z]
+Player0 has discarded a 84 to bag Z
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 37=X, 26=Z]
+Player0 has drawn a 41 from bag Y
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 37=X, 26=Z, 41=Y]
+Player0 has discarded a 26 to bag Y
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 37=X, 41=Y]
+Player0 has drawn a 62 from bag X
+Player0's hand is [58=Z, 95=Z, 53=Z, 62=Y, 89=Y, 51=X, 46=X, 37=X, 41=Y, 62=X]
+Player0 has discarded a 62 to bag X
+Player0's hand is [58=Z, 95=Z, 53=Z, 89=Y, 51=X, 46=X, 37=X, 41=Y, 62=X]
+Player0 has drawn a 78 from bag X
+Player0's hand is [58=Z, 95=Z, 53=Z, 89=Y, 51=X, 46=X, 37=X, 41=Y, 62=X, 78=X]
+Player0 has discarded a 58 to bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 37=X, 41=Y, 62=X, 78=X]
+Player0 has drawn a 85 from bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 37=X, 41=Y, 62=X, 78=X, 85=X]
+Player0 has discarded a 41 to bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 37=X, 62=X, 78=X, 85=X]
+Player0 has drawn a 77 from bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 37=X, 62=X, 78=X, 85=X, 77=X]
+Player0 has discarded a 37 to bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X]
+Player0 has drawn a 96 from bag Y
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X, 96=Y]
+Player0 has discarded a 96 to bag Y
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X]
+Player0 has drawn a 50 from bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X, 50=X]
+Player0 has discarded a 50 to bag X
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X]
+Player0 has drawn a 6 from bag Z
+Player0's hand is [95=Z, 53=Z, 89=Y, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X, 6=Z]
+Player0 has discarded a 89 to bag Z
+Player0's hand is [95=Z, 53=Z, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X, 6=Z]
+Player0 has drawn a 22 from bag Z
+Player0's hand is [95=Z, 53=Z, 51=X, 46=X, 62=X, 78=X, 85=X, 77=X, 6=Z, 22=Z]
+Player0 has discarded a 62 to bag Z
+Player0's hand is [95=Z, 53=Z, 51=X, 46=X, 78=X, 85=X, 77=X, 6=Z, 22=Z]
+Player0 has drawn a 22 from bag Y
+Player0's hand is [95=Z, 53=Z, 51=X, 46=X, 78=X, 85=X, 77=X, 6=Z, 22=Z, 22=Y]
+Player0 has discarded a 53 to bag Y
+Player0's hand is [95=Z, 51=X, 46=X, 78=X, 85=X, 77=X, 6=Z, 22=Z, 22=Y]
+Player0 has drawn a 5 from bag X
+Player0's hand is [95=Z, 51=X, 46=X, 78=X, 85=X, 77=X, 6=Z, 22=Z, 22=Y, 5=X]
+Player0 has discarded a 46 to bag X
+Player0's hand is [95=Z, 51=X, 78=X, 85=X, 77=X, 6=Z, 22=Z, 22=Y, 5=X]
+Player0 has drawn a 61 from bag Z
+Player0's hand is [95=Z, 51=X, 78=X, 85=X, 77=X, 6=Z, 22=Z, 22=Y, 5=X, 61=Z]
+Player0 has discarded a 77 to bag Z
+Player0's hand is [95=Z, 51=X, 78=X, 85=X, 6=Z, 22=Z, 22=Y, 5=X, 61=Z]
+Player0 has drawn a 87 from bag Z
+Player0's hand is [95=Z, 51=X, 78=X, 85=X, 6=Z, 22=Z, 22=Y, 5=X, 61=Z, 87=Z]
+Player0 has discarded a 22 to bag Z
+Player0's hand is [95=Z, 51=X, 78=X, 85=X, 6=Z, 22=Z, 5=X, 61=Z, 87=Z]
+Player0 has drawn a 80 from bag Z
+Player0's hand is [95=Z, 51=X, 78=X, 85=X, 6=Z, 22=Z, 5=X, 61=Z, 87=Z, 80=Z]
+Player0 has discarded a 85 to bag Z
+Player0's hand is [95=Z, 51=X, 78=X, 6=Z, 22=Z, 5=X, 61=Z, 87=Z, 80=Z]
+Player0 has drawn a 44 from bag X
+Player0's hand is [95=Z, 51=X, 78=X, 6=Z, 22=Z, 5=X, 61=Z, 87=Z, 80=Z, 44=X]
+Player0 has discarded a 5 to bag X
+Player0's hand is [95=Z, 51=X, 78=X, 6=Z, 22=Z, 61=Z, 87=Z, 80=Z, 44=X]
+Player0 has drawn a 74 from bag X
+Player0's hand is [95=Z, 51=X, 78=X, 6=Z, 22=Z, 61=Z, 87=Z, 80=Z, 44=X, 74=X]
+Player0 has discarded a 87 to bag X
+Player0's hand is [95=Z, 51=X, 78=X, 6=Z, 22=Z, 61=Z, 80=Z, 44=X, 74=X]
