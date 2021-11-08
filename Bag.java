@@ -52,7 +52,7 @@ public class Bag {
         this.bagContents = pebbles;
     }
     public void clearPebbles(){
-        this.bagContents.clear();
+        this.bagContents = new ArrayList<Entry<Integer, bagName>>();
     }
 
     private void loadPebbles(String pebbleFile){
@@ -85,7 +85,6 @@ public class Bag {
     }
 
     public Entry<Integer, bagName> getRandomPebble(){
-        System.out.println(Thread.currentThread().getName() + " - " + bagContents.size() + " - " + this.name.toString());
         int randomInt = rand.nextInt(bagContents.size());
         Entry<Integer, bagName> pebble = this.bagContents.get(randomInt);
         bagContents.remove(randomInt);

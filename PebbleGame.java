@@ -20,41 +20,27 @@ public class PebbleGame{
     private volatile Player winner;
     public final ReentrantLock gameLock;
 
-    private void refillBag(Bag bag){
-        System.out.println("refil has been called");
-        for (Bag b : bags){
-            System.out.println(b.getName().toString() + b.getPebbles().size());
-        }
-        Bag bagA = this.bags.get(3);
-        List<Entry<Integer, bagName>> pebblesA = bagA.getPebbles();
-        Bag bagB = this.bags.get(4);
-        List<Entry<Integer, bagName>> pebblesB = bagA.getPebbles();
-        Bag bagC = this.bags.get(5);
-        List<Entry<Integer, bagName>> pebblesC = bagA.getPebbles();
-
+    public void refillBag(Bag bag){
+        List<Entry<Integer, bagName>> pebbles;
         switch (bag.getName()){
             case X:
-                bag.setPebbles(pebblesA);
-                bagA.clearPebbles();
+                bag.setPebbles(this.bags.get(3).getPebbles());
+                this.bags.get(3).clearPebbles();
                 break;
             case Y:
-                bag.setPebbles(pebblesB);
-                bagB.clearPebbles();
+                bag.setPebbles(this.bags.get(4).getPebbles());
+                this.bags.get(4).clearPebbles();
                 break;
             case Z:
-                bag.setPebbles(pebblesC);
-                bagC.clearPebbles();
+                bag.setPebbles(this.bags.get(5).getPebbles());
+                this.bags.get(5).clearPebbles();
                 break;
             case A: case B: case C: // this should never be true
                 break;
             default:
                 break;
-        }
-        System.out.println("Becomes: ");
-        for (Bag b : bags){
-            System.out.println(b.getName().toString() + b.getPebbles().size());
-        }
 
+        }
     }
 
     public synchronized void runGame(){
@@ -161,8 +147,9 @@ public class PebbleGame{
             }
         }
         public void discardAPebble(){
-            Entry<Integer, bagName> pebble = this.playersHand.get(random.nextInt(10));
-            this.playersHand.remove(this.playersHand.indexOf(pebble));
+            int randint = random.nextInt(10);
+            Entry<Integer, bagName> pebble = this.playersHand.get(randint);
+            this.playersHand.remove(randint);
             pebble.setValue(this.previousPickBag);
             switch (this.previousPickBag){
                 case X:
@@ -251,6 +238,7 @@ public class PebbleGame{
         
         System.out.println("Please enter the number of players: "); 
         this.numOfPlayers = sc.nextInt();
+        sc.nextLine();
         //create bags
         bags.add(bagGenerator(this.numOfPlayers, bagName.X, sc));
         bags.add(bagGenerator(this.numOfPlayers, bagName.Y, sc));
