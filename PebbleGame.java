@@ -103,7 +103,7 @@ public class PebbleGame{
      * @param numOfPlayers
      * @param bagName
      * @param sc
-     * @return
+     * @return a bag class Bag
      */
     public Bag bagGenerator(Integer numOfPlayers, bagName bagName, Scanner sc){
         Boolean flag = true;
@@ -112,7 +112,7 @@ public class PebbleGame{
             System.out.println("Please enter the location of bag " + bagName.toString() + " to load: ");
             String input = sc.nextLine();
             bag = new Bag(bagName, input);
-            if (bag.getPebbles().size() < numOfPlayers*11){
+            if (bag.getPebbles().size() < numOfPlayers*11){ // ensure there are at least 11 times as many pebbles in the bag as there are players
                 System.out.println("Please enter a valid file that has at least 11 times the number of pebbles as number of players.");
             }else{
                 break;
