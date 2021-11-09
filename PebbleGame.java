@@ -1,4 +1,11 @@
 package ECM2414SoftwareDevCoursework;
+/**
+ * Pebble game
+ * 
+ * @author Louis Alexander
+ * @version 1.0
+ *
+ */
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +27,10 @@ public class PebbleGame{
     private volatile Player winner;
     public final ReentrantLock gameLock;
 
+    
+    /** 
+     * @param bag
+     */
     public void refillBag(Bag bag){
         List<Entry<Integer, bagName>> pebbles;
         switch (bag.getName()){
@@ -43,14 +54,24 @@ public class PebbleGame{
         }
     }
 
+    /**
+     * This function starts all the players by starting each thread
+     */
     public synchronized void runGame(){
         for (Thread thread : this.threadPool){
             thread.start();
         }
     }
 
+    /**
+     * This function prints the winner and 
+     */
     public void endGame(){
-        System.out.println("The winner was palyer: " + this.winner.playerNumber.toString());
+        List<Integer> playersHand = new ArrayList();
+        for (Entry<Integer, bagName> pebble : this.winner.getHand()){
+            playersHand.add(pebble.getKey());
+        }
+        System.out.println("The winner was palyer: " + this.winner.playerNumber.toString() + " with hand: " + playersHand.toString());
         for (Player player : this.players){
             player.closeFile();
         }
@@ -69,6 +90,14 @@ public class PebbleGame{
         this.endGame();
     }
 
+    
+    /**
+     * 
+     * @param numOfPlayers
+     * @param bagName
+     * @param sc
+     * @return
+     */
     public Bag bagGenerator(Integer numOfPlayers, bagName bagName, Scanner sc){
         Boolean flag = true;
         Bag bag = new Bag(bagName);
@@ -93,7 +122,10 @@ public class PebbleGame{
         private FileWriter writer;
         private Random random = new java.util.Random();
         private PebbleGame game;
-
+        
+        public List<Entry<Integer, bagName>> getHand(){
+            return this.playersHand;
+        }
 
         private Boolean checkHand(){
             int total = 0;
@@ -257,6 +289,10 @@ public class PebbleGame{
         
     }
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args){
         PebbleGame game = new PebbleGame();
     }

@@ -1,4 +1,11 @@
 package ECM2414SoftwareDevCoursework;
+/**
+ * Bag object file
+ * 
+ * @author Louis Alexander
+ * @version 1.0
+ *
+ */
 
 import java.util.Random;
 import java.util.ArrayList;
@@ -21,13 +28,25 @@ public class Bag {
     private Random rand = new Random();
     public final ReentrantLock bagLock;
 
+    
+    /** 
+     * @param name
+     */
     public void setName(bagName name){
         this.name = name;
     }
+    
+    /** 
+     * @return bagName
+     */
     public bagName getName(){
         return this.name;
     }
 
+    
+    /** 
+     * @return Boolean
+     */
     public Boolean isEmpty(){
         if (this.bagContents.size() == 0){
             return true;
@@ -36,18 +55,39 @@ public class Bag {
         }
     }
 
+    
+    /** 
+     * @param pebble
+     */
     public void addPebble(Entry<Integer, bagName> pebble){
         this.bagContents.add(pebble);
     }
+    
+    /** 
+     * @param value
+     */
     public void addPebble(Integer value){
         this.bagContents.add(new SimpleEntry<>(value, this.name));
     }
+    
+    /** 
+     * @param value
+     * @param bag
+     */
     public void addPebble(Integer value, bagName bag){
         this.bagContents.add(new SimpleEntry<>(value, bag));
     }
+    
+    /** 
+     * @return List<Entry<Integer, bagName>>
+     */
     public List<Entry<Integer, bagName>> getPebbles(){
         return this.bagContents;
     }
+    
+    /** 
+     * @param pebbles
+     */
     public void setPebbles(List<Entry<Integer, bagName>> pebbles){
         this.bagContents = pebbles;
     }
@@ -55,6 +95,10 @@ public class Bag {
         this.bagContents = new ArrayList<Entry<Integer, bagName>>();
     }
 
+    
+    /** 
+     * @param pebbleFile
+     */
     private void loadPebbles(String pebbleFile){
         ///
         /// need to verify enough pebbles for the game some how (maybe pass in number of players)
@@ -84,6 +128,10 @@ public class Bag {
         }
     }
 
+    
+    /** 
+     * @return Entry<Integer, bagName>
+     */
     public Entry<Integer, bagName> getRandomPebble(){
         int randomInt = rand.nextInt(bagContents.size());
         Entry<Integer, bagName> pebble = this.bagContents.get(randomInt);
