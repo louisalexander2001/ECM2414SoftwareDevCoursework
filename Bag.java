@@ -23,6 +23,7 @@ import java.io.IOException;
 enum bagName {A, B, C, X, Y, Z}
 
 public class Bag {
+    // define class variables
     private bagName name;
     private List<Entry<Integer, bagName>> bagContents = new ArrayList<Entry<Integer, bagName>>();
     private Random rand = new Random();
@@ -46,6 +47,7 @@ public class Bag {
     
     /** 
      * @return Boolean
+     * returns a boolean value true if the bag is empty
      */
     public Boolean isEmpty(){
         if (this.bagContents.size() == 0){
@@ -58,6 +60,7 @@ public class Bag {
     
     /** 
      * @param pebble
+     * Adds a whole pebble entry to the bag contents
      */
     public void addPebble(Entry<Integer, bagName> pebble){
         this.bagContents.add(pebble);
@@ -65,6 +68,7 @@ public class Bag {
     
     /** 
      * @param value
+     * creates a pebble entry based on the integer value and the bag name and adds it to the bag contents
      */
     public void addPebble(Integer value){
         this.bagContents.add(new SimpleEntry<>(value, this.name));
@@ -73,6 +77,7 @@ public class Bag {
     /** 
      * @param value
      * @param bag
+     * creates a pebble based on the integer value and the given bag name (not necessarily the same as the instance of bag) and adds it to the bag contents
      */
     public void addPebble(Integer value, bagName bag){
         this.bagContents.add(new SimpleEntry<>(value, bag));
@@ -80,6 +85,7 @@ public class Bag {
     
     /** 
      * @return List<Entry<Integer, bagName>>
+     * returns the ArrayList of pebbles representing the bag contents
      */
     public List<Entry<Integer, bagName>> getPebbles(){
         return this.bagContents;
@@ -87,10 +93,14 @@ public class Bag {
     
     /** 
      * @param pebbles
+     * sets the bag contents to the given ArrayList of pebbles
      */
     public void setPebbles(List<Entry<Integer, bagName>> pebbles){
         this.bagContents = pebbles;
     }
+    /**
+     * Clears the bag contents
+     */
     public void clearPebbles(){
         this.bagContents = new ArrayList<Entry<Integer, bagName>>();
     }
@@ -98,6 +108,8 @@ public class Bag {
     
     /** 
      * @param pebbleFile
+     * Loads pebbles from the given csv
+     * Handles any errors that may have been thrown
      */
     private void loadPebbles(String pebbleFile){
         ///
@@ -107,14 +119,14 @@ public class Bag {
         try(BufferedReader reader = Files.newBufferedReader(filePath, StandardCharsets.UTF_8)){
             String line = reader.readLine();
             while (line != null){
-                String[] pebbles = line.split(",");
+                String[] pebbles = line.split(","); // create a list of integers
                 for (String pebble : pebbles){
                     try{
                         Integer pebbleValue = Integer.parseInt(pebble);
-                        if (pebbleValue < 0){
+                        if (pebbleValue < 0){ // if pebble value is negitive make positive (this is a design choice - another option would be throw an error)
                             pebbleValue = - pebbleValue;
                         }else if (pebbleValue == 0){
-                            throw new IOException("A pebble value of 0 was attempted to be used");
+                            throw new IOException("A pebble value of 0 was attempted to be used"); // pebble value cannot be 0
                         }
                         this.addPebble(pebbleValue, this.name);
                     }catch (Exception exception){
@@ -131,19 +143,29 @@ public class Bag {
     
     /** 
      * @return Entry<Integer, bagName>
+     * Get a random pebbel from the bag contents and return it
      */
     public Entry<Integer, bagName> getRandomPebble(){
-        int randomInt = rand.nextInt(bagContents.size());
-        Entry<Integer, bagName> pebble = this.bagContents.get(randomInt);
-        bagContents.remove(randomInt);
+        int randomInt = rand.nextInt(bagContents.size()); // generate a random int based on bag size
+        Entry<Integer, bagName> pebble = this.bagContents.get(randomInt); // find pebble
+        bagContents.remove(randomInt); // remove it from the bag
         return pebble;
     }
-
+    /**
+     * 
+     * @param name
+     * Create an empty bag
+     */
     public Bag(bagName name){
         setName(name);
         bagLock = new ReentrantLock();
     }
-
+    /**
+     * 
+     * @param name
+     * @param pebbleFile
+     * Crate a bag and fill with pebbles
+     */
     public Bag(bagName name, String pebbleFile){
         setName(name);
         bagLock = new ReentrantLock();
