@@ -19,6 +19,9 @@ import java.util.Random;
 
 public class PebbleGame{
 
+    /**
+     * Initialise variables
+     */
     private Integer numOfPlayers;
     private List<Bag> bags = new ArrayList<Bag>();
     private List<Player> players = new ArrayList<Player>();
@@ -29,7 +32,8 @@ public class PebbleGame{
 
     
     /** 
-     * @param bag
+     * @param bag - the bag to be refilled
+     * This function refills a black bag from its corrosponding white bag
      */
     public void refillBag(Bag bag){
         List<Entry<Integer, bagName>> pebbles;
@@ -64,7 +68,8 @@ public class PebbleGame{
     }
 
     /**
-     * This function prints the winner and 
+     * This function prints the winner and their winning hand before closing each of the 
+     * players output files, unlocking the game and exeting the program
      */
     public void endGame(){
         List<Integer> playersHand = new ArrayList();
@@ -81,9 +86,11 @@ public class PebbleGame{
         System.exit(0);
     }
 
+    /**
+     * This function locks the instance of the game and then sends an interrupt to each thread that has a player asigned to it.
+     */
     public void stop(){
         this.gameLock.lock();
-        System.out.println("Stop has been called");
         for (Thread thread : this.threadPool){
             thread.interrupt();
         }
@@ -114,8 +121,13 @@ public class PebbleGame{
         return bag;
     }
 
+    /**
+     * Player Class
+     */
     class Player extends Thread{
-        
+        /**
+         * Player variables
+         */
         private Integer playerNumber;
         private List<Entry<Integer, bagName>> playersHand = new ArrayList<Entry<Integer, bagName>>();
         private bagName previousPickBag;
@@ -123,10 +135,20 @@ public class PebbleGame{
         private Random random = new java.util.Random();
         private PebbleGame game;
         
+        /**
+         * 
+         * @return List<Entry<Integer, bagName>>
+         * Get the ArrayList of the players hand
+         */
         public List<Entry<Integer, bagName>> getHand(){
             return this.playersHand;
         }
 
+        /**
+         * 
+         * @return Boolean
+         * returns true 
+         */
         private Boolean checkHand(){
             int total = 0;
             for (Entry<Integer, bagName> pebble : this.playersHand){
@@ -145,7 +167,9 @@ public class PebbleGame{
                 return false;
             }
         }
-        
+        /**
+         * Closes the file writer
+         */
         public void closeFile(){
             try{
                 this.writer.close();
@@ -154,36 +178,41 @@ public class PebbleGame{
                 e.printStackTrace();
             }
         }
-
+        /**
+         * Picks a random pebble from a random bag and adds it to the players hand
+         */
         public void pickAPebble(){
-            Bag randomBag = bags.get(this.random.nextInt(3));
-            randomBag.bagLock.lock();
+            Bag randomBag = bags.get(this.random.nextInt(3)); // Generate random integer to select a bag and then get that bag
+            randomBag.bagLock.lock(); // obtain the lock on the bag
             try{
                 if (randomBag.isEmpty()){
-                    game.refillBag(randomBag);
+                    game.refillBag(randomBag); // check if the bag is enpty and if it is refill it
                 }
-                Entry<Integer, bagName> pebble = randomBag.getRandomPebble();
-                this.playersHand.add(pebble);
-                this.previousPickBag = pebble.getValue();
-                try{
+                Entry<Integer, bagName> pebble = randomBag.getRandomPebble(); // call bags' internal getRandomPebble function to get a pebble
+                this.playersHand.add(pebble); // Add the pebble to the players hand
+                this.previousPickBag = pebble.getValue(); // assign the name of the bag the pebble was picked from to the variable so that the player has a memory of where the last pebble came from
+                try{// write the pebble the player picked and the players new hand to the corrosponding players file
                     this.writer.write("Player" + this.playerNumber.toString() + " has drawn a " + pebble.getKey().toString() +
                                  " from bag " + pebble.getValue().toString()+"\n");
                     this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
-                    this.writer.flush();
+                    this.writer.flush(); // flush the writer buffer
                 }catch (IOException e){
                     System.out.println("An IOException occurred.");
                     e.printStackTrace();
                 }
             }finally{
-                randomBag.bagLock.unlock();
+                randomBag.bagLock.unlock(); // unlock the bag
             }
         }
+        /**
+         * Discard a random pebble from the players hand to the corrosponding white bag depending on where the last pebble was picked from.
+         */
         public void discardAPebble(){
-            int randint = random.nextInt(10);
-            Entry<Integer, bagName> pebble = this.playersHand.get(randint);
-            this.playersHand.remove(randint);
-            pebble.setValue(this.previousPickBag);
-            switch (this.previousPickBag){
+            int randint = random.nextInt(10); // get random int to select random pebble from players hand
+            Entry<Integer, bagName> pebble = this.playersHand.get(randint); // get pebble
+            this.playersHand.remove(randint); // remove pebble from players hand
+            pebble.setValue(this.previousPickBag); // change the bag name assigned to the pebble to the bagname of where the last pebble came from
+            switch (this.previousPickBag){// swithch statement to put pebble in the right place. Obtains the bag lock before adding the pebble to the bag before finally relasing the lock
                 case X:
                     bags.get(3).bagLock.lock();
                     try{
@@ -209,17 +238,22 @@ public class PebbleGame{
                     }
                     break;
             }
-            try{
+            try{// write the pebble the player picked and the players new hand to the corrosponding players file
                 this.writer.write("Player" + this.playerNumber.toString() + " has discarded a " + pebble.getKey().toString() +
                                   " to bag " + this.previousPickBag.toString()+"\n");
                 this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
-                this.writer.flush();
+                this.writer.flush(); // flush the writer buffer
             }catch (IOException e){
                 System.out.println("An IOException occurred.");
                 e.printStackTrace();
             }
         }
-
+        /**
+         * 
+         * @param playerNumber - the number the player goes by
+         * @param game - the instance of the game being played
+         * Player Init function
+         */
         public Player(Integer playerNumber, PebbleGame game){
             this.playerNumber = playerNumber;
             this.game = game;
@@ -228,11 +262,11 @@ public class PebbleGame{
 
 
             try{
-                if(file.exists() && !file.isDirectory()) { 
-                    this.writer = new FileWriter(fileName);
+                if(file.exists() && !file.isDirectory()) { // check if file exists
+                    this.writer = new FileWriter(fileName); // initialise the file writer
                 }else{
-                    file.createNewFile();
-                    this.writer = new FileWriter(fileName);
+                    file.createNewFile(); // create file if it doesnt exist
+                    this.writer = new FileWriter(fileName); // initialise the file writer
                 }
             } catch (IOException e){
                 System.out.println("An IOException occurred.");
@@ -241,29 +275,29 @@ public class PebbleGame{
         }
 
         @Override
-        public void run(){
-            for (int i=0; i<10; i++){
+        public void run(){ // threaded run function to be executed on Thread.start()
+            for (int i=0; i<10; i++){ // pick 10 random pebbles to setup hand
                 this.pickAPebble();
             }
             Boolean winningHand = false;
-            winningHand = checkHand();
-            while (!Thread.currentThread().isInterrupted() && !winningHand){
+            winningHand = checkHand(); // check hand 
+            while (!Thread.currentThread().isInterrupted() && !winningHand){ // whie not interrupted and doesnt have a winning hand
                 discardAPebble();
                 pickAPebble();
                 winningHand = checkHand();
             }
             if (winningHand){
-                game.winner = this;
+                game.winner = this; // give game a reference to the winning player so details can be extracted
                 game.stop();
             }
         }
     }
 
     public PebbleGame(){
-        //setup scanner
+        // setup scanner
         Scanner sc = new Scanner(System.in); 
         gameLock = new ReentrantLock();
-        //greeting
+        // greeting
         System.out.println("Welcome to the PebbleGame!!\nYou will be asked to enter the number of players.\n"
                          + "You will then be asked for the location of three files in turn containing the comma "
                          + "seperated integer values for the pebble weights. \nThe integer balues must be strictly"
@@ -271,16 +305,16 @@ public class PebbleGame{
         
         System.out.println("Please enter the number of players: "); 
         this.numOfPlayers = sc.nextInt();
-        sc.nextLine();
-        //create bags
+        sc.nextLine(); // needed as input data type changes
+        // create black bags
         bags.add(bagGenerator(this.numOfPlayers, bagName.X, sc));
         bags.add(bagGenerator(this.numOfPlayers, bagName.Y, sc));
         bags.add(bagGenerator(this.numOfPlayers, bagName.Z, sc));
-
+        // create white bags
         bags.add(new Bag(bagName.A));
         bags.add(new Bag(bagName.B));
         bags.add(new Bag(bagName.C));
-        for (int i=0; i<this.numOfPlayers; i++){
+        for (int i=0; i<this.numOfPlayers; i++){ // create players and add them to the ArrayList. Create Threads with a player assigned and add to the threadpool
             this.players.add(new Player(i, this));
             this.threadPool.add(new Thread(players.get(i)));
         }
@@ -294,16 +328,6 @@ public class PebbleGame{
      * @param args
      */
     public static void main(String[] args){
-        PebbleGame game = new PebbleGame();
+        PebbleGame game = new PebbleGame(); // start an instance of the game
     }
 }
-
-
-
-
-// notes to self. child thread (player) throws interrupt which parent thread (game) is listening for with isInterruped() and then the parent thread can intterupt al the other threads
-// my program might be going wrong due to deadlock
-
-// parent thread (game) should call wait() and then the child thread should notify the parent thread which then interrups all children. parent can then check for a winning hand 
-
-// using volitile may be useful
