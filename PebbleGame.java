@@ -110,6 +110,9 @@ public class PebbleGame{
         Bag bag = new Bag(bagName);
         while (flag){
             System.out.println("Please enter the location of bag " + bagName.toString() + " to load: ");
+            if (sc.hasNext("e") || sc.hasNext("E")){
+                System.exit(0);
+            }
             String input = sc.nextLine();
             bag = new Bag(bagName, input);
             if (bag.getPebbles().size() < numOfPlayers*11){ // ensure there are at least 11 times as many pebbles in the bag as there are players
@@ -304,6 +307,9 @@ public class PebbleGame{
                          + " positive.\nThe game will then be simulated, and output written to files in this directory.");
         
         System.out.println("Please enter the number of players: "); 
+        if (sc.hasNext("e") || sc.hasNext("E")){
+            System.exit(0);
+        }
         this.numOfPlayers = sc.nextInt();
         sc.nextLine(); // needed as input data type changes
         // create black bags
