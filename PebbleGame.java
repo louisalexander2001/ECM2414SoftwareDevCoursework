@@ -1,4 +1,4 @@
-package ECM2414SoftwareDevCoursework;
+//package ECM2414SoftwareDevCoursework;
 /**
  * Pebble game
  * 
@@ -197,11 +197,11 @@ public class PebbleGame{
                     this.writer.write("Player" + this.playerNumber.toString() + " has drawn a " + pebble.getKey().toString() +
                                  " from bag " + pebble.getValue().toString()+"\n");
                     this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
-                    if (this.playerNumber == 0){
-                        for (Bag bag : this.game.bags){
-                            this.writer.write(bag.getPebbles());
-                        }
-                    }
+                    // if (this.playerNumber == 0){
+                    //     for (Bag bag : this.game.bags){
+                    //         this.writer.write(bag.getPebbles());
+                    //     }
+                    // }
                     this.writer.flush(); // flush the writer buffer
                 }catch (IOException e){
                     System.out.println("An IOException occurred.");
@@ -217,13 +217,17 @@ public class PebbleGame{
         public void discardAPebble(){
             int randint = random.nextInt(10); // get random int to select random pebble from players hand
             Entry<Integer, bagName> pebble = this.playersHand.get(randint); // get pebble
+            if (pebble == null){
+                System.out.println(pebble.toString());
+                System.out.println(this.playersHand.toString());
+            }
             this.playersHand.remove(randint); // remove pebble from players hand
             pebble.setValue(this.previousPickBag); // change the bag name assigned to the pebble to the bagname of where the last pebble came from
             switch (this.previousPickBag){// swithch statement to put pebble in the right place. Obtains the bag lock before adding the pebble to the bag before finally relasing the lock
                 case X:
                     bags.get(3).bagLock.lock();
                     try{
-                        bags.get(3).addPebble(pebble);
+                        bags.get(3).addPebble(pebble.getKey(), pebble.getValue());
                     }finally{
                         bags.get(3).bagLock.unlock();
                     }
@@ -231,7 +235,7 @@ public class PebbleGame{
                 case Y:
                     bags.get(4).bagLock.lock();
                     try{
-                        bags.get(4).addPebble(pebble);
+                        bags.get(4).addPebble(pebble.getKey(), pebble.getValue());
                     }finally{
                         bags.get(4).bagLock.unlock();
                     }
@@ -239,7 +243,7 @@ public class PebbleGame{
                 case Z:
                     bags.get(5).bagLock.lock();
                     try{
-                        bags.get(5).addPebble(pebble);
+                        bags.get(5).addPebble(pebble.getKey(), pebble.getValue());
                     }finally{
                         bags.get(5).bagLock.unlock();
                     }
@@ -300,16 +304,15 @@ public class PebbleGame{
         }
     }
 
-    public PebbleGame(){
+    public void setupGame(){
         // setup scanner
         Scanner sc = new Scanner(System.in); 
-        gameLock = new ReentrantLock();
         // greeting
         System.out.println("Welcome to the PebbleGame!!\nYou will be asked to enter the number of players.\n"
-                         + "You will then be asked for the location of three files in turn containing the comma "
-                         + "seperated integer values for the pebble weights. \nThe integer balues must be strictly"
-                         + " positive.\nThe game will then be simulated, and output written to files in this directory.");
-        
+                        + "You will then be asked for the location of three files in turn containing the comma "
+                        + "seperated integer values for the pebble weights. \nThe integer balues must be strictly"
+                        + " positive.\nThe game will then be simulated, and output written to files in this directory.");
+
         System.out.println("Please enter the number of players: "); 
         if (sc.hasNext("e") || sc.hasNext("E")){
             System.exit(0);
@@ -329,9 +332,10 @@ public class PebbleGame{
             this.players.add(new Player(i, this));
             this.threadPool.add(new Thread(players.get(i)));
         }
-        this.runGame();
+    }
 
-        
+    public PebbleGame(){
+        gameLock = new ReentrantLock();
     }
 
     
@@ -340,5 +344,7 @@ public class PebbleGame{
      */
     public static void main(String[] args){
         PebbleGame game = new PebbleGame(); // start an instance of the game
+        game.setupGame();
+        game.runGame();
     }
 }
