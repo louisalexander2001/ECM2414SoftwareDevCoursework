@@ -64,6 +64,11 @@ public class Bag {
      */
     public void addPebble(Entry<Integer, bagName> pebble){
         this.bagContents.add(pebble);
+        if (this.bagContents.contains(null)){
+            System.out.println("NULL AT 6");
+            System.out.println(pebble);
+            System.out.println(this.bagContents);
+        }
     }
     
     /** 
@@ -72,6 +77,9 @@ public class Bag {
      */
     public void addPebble(Integer value){
         this.bagContents.add(new SimpleEntry<>(value, this.name));
+        if (this.bagContents.contains(null)){
+            System.out.println("NULL AT 5"):
+        }
     }
     
     /** 
@@ -81,6 +89,9 @@ public class Bag {
      */
     public void addPebble(Integer value, bagName bag){
         this.bagContents.add(new SimpleEntry<>(value, bag));
+        if (this.bagContents.contains(null)){
+            System.out.println("NULL AT 4");
+        }
     }
     
     /** 
@@ -88,6 +99,9 @@ public class Bag {
      * returns the ArrayList of pebbles representing the bag contents
      */
     public List<Entry<Integer, bagName>> getPebbles(){
+        if (this.bagContents.contains(null)){
+            System.out.println("NULL AT 3");
+        }
         return this.bagContents;
     }
     
@@ -96,7 +110,13 @@ public class Bag {
      * sets the bag contents to the given ArrayList of pebbles
      */
     public void setPebbles(List<Entry<Integer, bagName>> pebbles){
+        if (pebbles.contains(null)){
+            System.out.println("NULL AT 1");
+        }
         this.bagContents = pebbles;
+        if (this.bagContents.contains(null)){
+            System.out.println("NULL AT 2");
+        }
     }
     /**
      * Clears the bag contents
@@ -148,6 +168,9 @@ public class Bag {
     public Entry<Integer, bagName> getRandomPebble(){
         int randomInt = rand.nextInt(bagContents.size()); // generate a random int based on bag size
         Entry<Integer, bagName> pebble = this.bagContents.get(randomInt); // find pebble
+        if (pebble == null){
+            System.out.println("ITS GONNA BE NULL: " + randomInt + " " + this.bagContents.toString());
+        }
         bagContents.remove(randomInt); // remove it from the bag
         return pebble;
     }

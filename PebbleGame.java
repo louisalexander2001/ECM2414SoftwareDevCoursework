@@ -36,7 +36,6 @@ public class PebbleGame{
      * This function refills a black bag from its corrosponding white bag
      */
     public void refillBag(Bag bag){
-        List<Entry<Integer, bagName>> pebbles;
         switch (bag.getName()){
             case X:
                 bag.setPebbles(this.bags.get(3).getPebbles());
@@ -198,6 +197,11 @@ public class PebbleGame{
                     this.writer.write("Player" + this.playerNumber.toString() + " has drawn a " + pebble.getKey().toString() +
                                  " from bag " + pebble.getValue().toString()+"\n");
                     this.writer.write("Player" + this.playerNumber.toString() + "'s hand is " + this.playersHand.toString()+"\n");
+                    if (this.playerNumber == 0){
+                        for (Bag bag : this.game.bags){
+                            this.writer.write(bag.getPebbles());
+                        }
+                    }
                     this.writer.flush(); // flush the writer buffer
                 }catch (IOException e){
                     System.out.println("An IOException occurred.");
@@ -320,6 +324,7 @@ public class PebbleGame{
         bags.add(new Bag(bagName.A));
         bags.add(new Bag(bagName.B));
         bags.add(new Bag(bagName.C));
+
         for (int i=0; i<this.numOfPlayers; i++){ // create players and add them to the ArrayList. Create Threads with a player assigned and add to the threadpool
             this.players.add(new Player(i, this));
             this.threadPool.add(new Thread(players.get(i)));
