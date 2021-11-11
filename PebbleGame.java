@@ -23,8 +23,8 @@ public class PebbleGame{
      * Initialise variables
      */
     private Integer numOfPlayers;
-    private List<Bag> bags = new ArrayList<Bag>();
-    private List<Player> players = new ArrayList<Player>();
+    public List<Bag> bags = new ArrayList<Bag>();
+    public List<Player> players = new ArrayList<Player>();
     private List<Thread> threadPool = new ArrayList<Thread>();
     private PebbleGame game = this;
     private volatile Player winner;
@@ -131,9 +131,9 @@ public class PebbleGame{
          * Player variables
          */
         private Integer playerNumber;
-        private List<Entry<Integer, bagName>> playersHand = new ArrayList<Entry<Integer, bagName>>();
-        private bagName previousPickBag;
-        private FileWriter writer;
+        public List<Entry<Integer, bagName>> playersHand = new ArrayList<Entry<Integer, bagName>>();
+        public bagName previousPickBag;
+        public FileWriter writer;
         private Random random = new java.util.Random();
         private PebbleGame game;
         
@@ -151,7 +151,7 @@ public class PebbleGame{
          * @return Boolean
          * returns true 
          */
-        private Boolean checkHand(){
+        public Boolean checkHand(){
             int total = 0;
             for (Entry<Integer, bagName> pebble : this.playersHand){
                 total += pebble.getKey();
@@ -284,6 +284,7 @@ public class PebbleGame{
                 e.printStackTrace();
             }
         }
+
 
         @Override
         public void run(){ // threaded run function to be executed on Thread.start()

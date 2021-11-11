@@ -111,7 +111,7 @@ public class Bag {
      * Loads pebbles from the given csv
      * Handles any errors that may have been thrown
      */
-    private void loadPebbles(String pebbleFile){
+    public void loadPebbles(String pebbleFile){
         ///
         /// need to verify enough pebbles for the game some how (maybe pass in number of players)
         ///
